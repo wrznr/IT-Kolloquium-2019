@@ -34,7 +34,7 @@ ul > li > ol > li > ul > li { font-size:1.1rem }
 .red { color:#c00 }
 .green { color:#0f0 }
 
-.remark-slide-content h1 { font-size:2.5rem; margin-top:0; color:#cc0000; text-align: center; font-family: 'Open Sans', sans-serif }
+.remark-slide-content h1 { font-size:2.5rem; margin-top:0; color:#cc0000;  font-family: 'Open Sans', sans-serif }
 .remark-slide-content h2 { font-size:2.5rem }
 .remark-slide-content { padding:1em 1em }
 
@@ -58,6 +58,9 @@ ul > li > ol > li > ul > li { font-size:1.1rem }
   width: 100%
 }
 .title-slide .my-footer {
+  height: 70px;
+  font-family: 'Open Sans', sans-serif;
+  color: #cc0000;
 }
 
 .my-header {
@@ -74,7 +77,6 @@ ul > li > ol > li > ul > li { font-size:1.1rem }
   background-position: 10px 10px;
   background-size: 20%;
   border-top: 1px solid #222;
-  position: absolute;
   bottom: 0px;
   left: 0px;
   height: 70px;
@@ -84,6 +86,13 @@ ul > li > ol > li > ul > li { font-size:1.1rem }
 
 .my-footer td {
   font-size: 8pt;
+  color: #222;
+  padding:0px 10px;
+  font-family: 'Open Sans', sans-serif
+}
+
+.title-slide .my-footer td {
+  font-size: 12pt;
   color: #222;
   padding:0px 10px;
   font-family: 'Open Sans', sans-serif
