@@ -10,9 +10,9 @@ img { max-width:90% }
 .img-orig img { max-width:initial !important }
 .img-fit img { max-width:70% }
 
-li { line-height:1.5em; font-size:2rem }
+li { line-height:1.5em; font-size:1.8rem }
 
-p { line-height:1.25em; font-size:2rem; margin-block-end: auto }
+p { line-height:1.25em; font-size:1.8rem; margin-block-end: auto }
 
 pre { margin:0; padding:.5em; background:#f6f8fa }
 
@@ -20,12 +20,12 @@ table { margin:auto; width:100% }
 thead { background:#eee }
 tbody tr:nth-child(even) { background:#f3f3f3 }
 
-ul > li > ul > li { font-size:1.5rem }
-ul > li > ol > li { font-size:1.5rem }
-ol > li > ul > li { font-size:1.5rem }
+ul > li > ul > li { font-size:1.4rem }
+ul > li > ol > li { font-size:1.4rem }
+ol > li > ul > li { font-size:1.4rem }
 
-ul > li > ul > li > ul > li { font-size:1.2rem }
-ul > li > ol > li > ul > li { font-size:1.2rem }
+ul > li > ul > li > ul > li { font-size:1.1rem }
+ul > li > ol > li > ul > li { font-size:1.1rem }
 
 .center { text-align:center }
 .diasys { color:#595; font-weight:bold }
@@ -34,7 +34,7 @@ ul > li > ol > li > ul > li { font-size:1.2rem }
 .red { color:#c00 }
 .green { color:#0f0 }
 
-.remark-slide-content h1 { font-size:3rem; margin-top:0; color:#cc0000 }
+.remark-slide-content h1 { font-size:3rem; margin-top:0; color:#cc0000; text-align: center; font-family: 'Open Sans', sans-serif }
 .remark-slide-content h2 { font-size:2.5rem }
 .remark-slide-content { padding:1em 1em }
 
@@ -42,8 +42,8 @@ ul > li > ol > li > ul > li { font-size:1.2rem }
 
 .remark-slide-number { bottom:25px; right:15px; font-size:9pt }
 
-.title-slide h1 { text-align:center; margin-top:100px }
-.title-slide h2 { font-size:2rem; color:#cc0000; text-align:center; margin-top:30px }
+.title-slide h1 { text-align:center; margin-top:100px; font-family: 'Open Sans', sans-serif }
+.title-slide h2 { font-size:2rem; color:#cc0000; text-align:center; margin-top:30px; font-family: 'Open Sans', sans-serif }
 .title-slide .remark-slide-number { display:none }
 
 .my-header {
@@ -54,11 +54,10 @@ ul > li > ol > li > ul > li { font-size:1.2rem }
   border-bottom: 1px solid #ccc;
   position: fixed;
   top: 0px;
-  left: 0px;
+  left: 10px;
   height: 80px;
   width: 100%;
   text-align: center;
-  font-family: 'Open Sans',sans-serif;
 }
 
 .my-footer {
@@ -68,7 +67,7 @@ ul > li > ol > li > ul > li { font-size:1.2rem }
   left: 0px;
   height: 20px;
   width: 100%;
-  font-family: 'Open Sans',sans-serif;
+  font-family: 'Open Sans', sans-serif
 }
 
 .my-footer td {
@@ -77,4 +76,4 @@ ul > li > ol > li > ul > li { font-size:1.2rem }
   padding:1px 10px;
 }
 
-.my-footer a { color:#00afc8; text-decoration:none }
+.my-footer a { color:#fff; text-decoration:none }
