@@ -49,12 +49,13 @@ ul > li > ol > li > ul > li { font-size:1.1rem }
 .my-header {
   background-image: url("img/slub_logo.svg");
   background-repeat: no-repeat;
-  background-position: left;
+  background-position: 10px 0px;
   background-size: 20%;
   border-bottom: 1px solid #ccc;
   position: fixed;
   top: 0px;
-  left: 10px;
+  left: 00px;
+  right: 00px;
   height: 80px;
   width: 100%;
   text-align: center;
@@ -74,6 +75,7 @@ ul > li > ol > li > ul > li { font-size:1.1rem }
   font-size: 10pt;
   color: #fff;
   padding:1px 10px;
+  font-family: 'Open Sans', sans-serif
 }
 
 .my-footer a { color:#fff; text-decoration:none }
