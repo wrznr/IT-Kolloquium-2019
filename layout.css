@@ -91,7 +91,7 @@ ul > li > ol > li > ul > li { font-size:1.1rem }
   width: 100%
 }
 .title-slide .my-footer {
-  background-image: url("");
+  background-image: url(img/bg.png);
   background-color: #cc0000;
   background-position: 0px 0px;
   border-top: 0px solid #222;
