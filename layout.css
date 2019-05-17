@@ -50,14 +50,14 @@ ul > li > ol > li > ul > li { font-size:1.2rem }
   background-image: url("img/slub_logo.svg");
   background-repeat: no-repeat;
   background-position: left;
-  background-size: 10%;
+  background-size: 20%;
   border-bottom: 1px solid #ccc;
   position: fixed;
   top: 0px;
   left: 0px;
   height: 80px;
   width: 100%;
-  text-align: left;
+  text-align: center;
   font-family: 'Open Sans',sans-serif;
 }
 

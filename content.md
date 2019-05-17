@@ -18,9 +18,9 @@ class: title-slide
 # (Open-Source-)OCR-Workflows
 ## Eine Aufriss über Techniken und Werkzeuge zur automatischen Texterkennung
 
-| Kay-Michael Würzner |
-|:-------------------:|
-[kay-michael.wuerzner@slub-dresden.de](mailto:kay-michael.wuerzner@slub-dresden.de) |
+<center>Kay-Michael Würzner<br/>
+[kay-michael.wuerzner@slub-dresden.de](mailto:kay-michael.wuerzner@slub-dresden.de)
+</center>
 
 
 ---
