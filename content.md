@@ -19,7 +19,7 @@ class: title-slide
 ## Eine Aufriss über Techniken und Werkzeuge zur automatischen Texterkennung
 
 <center>Kay-Michael Würzner<br/>
-[kay-michael.wuerzner@slub-dresden.de](mailto:kay-michael.wuerzner@slub-dresden.de)
+<a href="mailto:kay-michael.wuerzner@slub-dresden.de">kay-michael.wuerzner@slub-dresden.de</a>
 </center>
 
 
