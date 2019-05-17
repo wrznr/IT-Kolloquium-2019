@@ -40,7 +40,7 @@ ul > li > ol > li > ul > li { font-size:1.1rem }
 
 .remark-code-line { line-height:1.3em }
 
-.remark-slide-number { bottom:15px; right:65px; font-size:8pt }
+.remark-slide-number { bottom:15px; right:70px; font-size:8pt }
 
 .title-slide h1 { text-align:center; margin-top:100px; font-family: 'Open Sans', sans-serif }
 .title-slide h2 { font-size:2rem; color:#cc0000; text-align:center; margin-top:30px; font-family: 'Open Sans', sans-serif }
@@ -76,6 +76,8 @@ ul > li > ol > li > ul > li { font-size:1.1rem }
 }
 
 .my-footer a { color:#cc0000; text-decoration:none; font-family: 'Open Sans', sans-serif }
+.my-footer thead { background:#fff }
+.my-footer tbody tr:nth-child(even) { background:#fff }
 
 .title-slide .my-header {
   background-image: url("img/slub_logo.svg");

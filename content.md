@@ -6,13 +6,12 @@ layout: true
   <table>
     <tr>
       <td style="text-align:right">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek</td>
-      <td />
+      <td>06.06.19</td>
       <td style="text-align:right"><a href="https://www.slub-dresden.de/">www.slub-dresden.de</a></td>
     </tr>
     <tr>
       <td style="text-align:right">Referat 2.5</td>
       <td />
-      <td>06.06.19</td>
     </tr>
   </table>
 </div>
