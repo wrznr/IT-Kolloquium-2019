@@ -77,7 +77,7 @@ ul > li > ol > li > ul > li { font-size:1.1rem }
 
 .my-footer a { color:#cc0000; text-decoration:none; font-family: 'Open Sans', sans-serif }
 .my-footer thead { background:#fff }
-.my-footer tbody tr:nth-child(even) { background:#fff }
+.my-footer tbody tr:nth-child(even) { background:transparent }
 
 .title-slide .my-header {
   background-image: url("img/slub_logo.svg");
