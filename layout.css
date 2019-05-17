@@ -1,6 +1,6 @@
 * { font-family:'Bitter',serif }
 
-a { color:#009; text-decoration:none }
+a { color:#00afc8; text-decoration:none }
 
 blockquote  > p { padding:0 1em; color:#6a737d; border-left:0.25em solid #dfe2e5; font-size:1.5rem }
 
@@ -34,7 +34,7 @@ ul > li > ol > li > ul > li { font-size:1.2rem }
 .red { color:#c00 }
 .green { color:#0f0 }
 
-.remark-slide-content h1 { font-size:3rem; margin-top:0; color:#e52421 }
+.remark-slide-content h1 { font-size:3rem; margin-top:0; color:#cc0000 }
 .remark-slide-content h2 { font-size:2.5rem }
 .remark-slide-content { padding:1em 1em }
 
@@ -43,13 +43,13 @@ ul > li > ol > li > ul > li { font-size:1.2rem }
 .remark-slide-number { bottom:25px; right:15px; font-size:9pt }
 
 .title-slide h1 { text-align:center; margin-top:100px }
-.title-slide h2 { font-size:3rem; color:#e52421; text-align:center; margin-top:30px }
+.title-slide h2 { font-size:2rem; color:#cc0000; text-align:center; margin-top:30px }
 .title-slide .remark-slide-number { display:none }
 
 .my-header {
   background-image: url("img/slub_logo.svg");
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: left;
   background-size: 10%;
   border-bottom: 1px solid #ccc;
   position: fixed;
@@ -68,6 +68,7 @@ ul > li > ol > li > ul > li { font-size:1.2rem }
   left: 0px;
   height: 20px;
   width: 100%;
+  font-family: 'Open Sans',sans-serif;
 }
 
 .my-footer td {
@@ -76,4 +77,4 @@ ul > li > ol > li > ul > li { font-size:1.2rem }
   padding:1px 10px;
 }
 
-.my-footer a { color:#fff; text-decoration:none }
+.my-footer a { color:#00afc8; text-decoration:none }
