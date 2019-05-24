@@ -43,11 +43,6 @@ class: title-slide
 # (Open-Source-)OCR-Workflows
 ## Eine Aufriss über Techniken und Werkzeuge zur automatischen Texterkennung
 
-<center>Kay-Michael Würzner<br/>
-<a href="mailto:kay-michael.wuerzner@slub-dresden.de">kay-michael.wuerzner@slub-dresden.de</a>
-</center>
-
-
 ---
 
 # Überblick
@@ -63,3 +58,9 @@ class: title-slide
 - Nichttechnische Aspekte
   + OCR-D
   + Open-Source, und dann?
+
+---
+
+class: part-slide
+
+# Was ist OCR?
