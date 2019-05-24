@@ -62,4 +62,14 @@ class: part-slide
 
 ---
 
+# Was ist OCR?
 
+<div id="left">
+- **O**ptical **C**haracter **R**ecognition: Automatische Erfassung von Text in Bildern
+- ursprünglich begrenzt auf Zeichenerkennung
+- heute häufig Synonym für den gesamten Texterfassungsprozess
+  + Bildvorverarbeitung
+  + Layoutanalyse (OLR)
+  + Zeilenerkennung
+  + ...
+</div>
