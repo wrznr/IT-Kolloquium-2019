@@ -131,3 +131,11 @@ ul > li > ol > li > ul > li { font-size:1.1rem }
 .fifty{
   flex: 50%;
 }
+
+.sixty{
+  flex: 60%;
+}
+
+.fourty{
+  flex: 40%;
+}

@@ -67,7 +67,7 @@ class: part-slide
 # Was ist OCR?
 
 .cols[
-.fifty[
+.sixty[
 - **O**ptical **C**haracter **R**ecognition: Automatische Erfassung von Text in Bildern
 - ursprünglich begrenzt auf Zeichenerkennung
 - heute häufig Synonym für den gesamten Texterfassungsprozess
@@ -76,7 +76,7 @@ class: part-slide
   + Zeilenerkennung
   + ...C
 ]
-.fifty[
-- Test
+.fourty[
+<center><img src="img/times.svg" /></center>
 ]
 ]
