@@ -36,6 +36,7 @@ layout: true
 ---
 
 class: title-slide
+count: false
 
 # (Open-Source-)OCR-Workflows
 ## Eine Aufriss über Techniken und Werkzeuge zur automatischen Texterkennung
@@ -47,6 +48,7 @@ class: title-slide
 - Einleitung
   + Was ist OCR?
   + Wozu benutzt man OCR?
+  + Warum überhaupt OCR?
 - Technische Aspekte
   + Komponenten eines einfachen OCR-Workflows
   + Modelltraining
@@ -59,6 +61,7 @@ class: title-slide
 ---
 
 class: part-slide
+count: false
 
 # Was ist OCR?
 
@@ -116,6 +119,7 @@ class: part-slide
 ---
 
 class: part-slide
+count: false
 
 # Wozu benutzt man OCR?
 
@@ -131,7 +135,7 @@ class: part-slide
 .fourty[
 <center>
 <img src="img/anpr.svg" width="300px" />
-<p font-size:0.5rem;>Image by Achim Raschka, CC BY-SA 3.0</p>
+<p font-size:4pt>Image by Achim Raschka, CC BY-SA 3.0</p>
 </center>
 ]
 ]
@@ -151,7 +155,7 @@ count: false
 .fourty[
 <center>
 <img src="img/captcha.svg" width="300px" />
-<p font-size:0.5rem;>Image by JD, CC BY-SA 2.0</p>
+<p font-size:4pt>Image by JD, CC BY-SA 2.0</p>
 </center>
 ]
 ]
@@ -172,7 +176,7 @@ count: false
 .fourty[
 <center>
 <img src="img/deposit.svg" width="300px" />
-<p font-size:0.5rem;>Image by Eluminary, CC BY-SA 2.0</p>
+<p font-size:4pt>Image by Eluminary, CC BY-SA 2.0</p>
 </center>
 ]
 ]
@@ -216,7 +220,7 @@ count: false
 .fourty[
 <center>
 <img src="img/beauvais_0.svg" width="300px" />
-<p font-size:0.5rem;>Image by Uwe Springmann, CC BY-SA 4.0</p>
+<p font-size:4pt>Image by Uwe Springmann, CC BY-SA 4.0</p>
 </center>
 ]
 ]
@@ -239,7 +243,156 @@ count: false
 .fourty[
 <center>
 <img src="img/beauvais_1.svg" width="300px" />
-<p font-size:0.5rem;>Image by Uwe Springmann, CC BY-SA 4.0</p>
+<p font-size:4pt>Image by Uwe Springmann, CC BY-SA 4.0</p>
+</center>
+]
+]
+
+---
+
+class: part-slide
+count: false
+
+# Warum überhaupt OCR?
+
+---
+
+# Warum überhaupt OCR?
+
+- OCR ist immer **fehlerhaft**! Aber:
+- verändertes „Rechercheverhalten“ in Zeiten zunehmender Verfügbarkeit digitaler Quellen
+  + Wissenserwerb durch Internetsuche
+  + Sekundärliteratur (fast) vollständig **textdigital** verfügbar
+  + Navigationssystem vs. Autoatlas
+- Ansprüche an Verfügbarkeit von Primärquellen wächst
+- vielfältige quantitative Auswertungsmethoden (i.e. *distant reading*)
+- für den **digitalen Geisteswissenschaftler**: Bruch mit dem „Diktat der Verfügbarkeit“
+
+---
+
+class: part-slide
+count: false
+
+# Komponenten eines einfachen OCR-Workflows
+
+---
+
+# Komponenten eines einfachen OCR-Workflows
+
+.cols[
+.fifty[
+]
+.fifty[
+<center>
+<img src="img/grenzboten_raw.svg" />
+</center>
+]
+]
+
+---
+
+count: false
+
+# Komponenten eines einfachen OCR-Workflows
+
+.cols[
+.fifty[
+- Bildvorverarbeitung
+]
+.fifty[
+<center>
+<img src="img/grenzboten_raw.svg" />
+</center>
+]
+]
+
+---
+
+count: false
+
+# Komponenten eines einfachen OCR-Workflows
+
+.cols[
+.fifty[
+- Bildvorverarbeitung
+]
+.fifty[
+<center>
+<img src="img/grenzboten_opt.svg" />
+</center>
+]
+]
+
+---
+
+count: false
+
+# Komponenten eines einfachen OCR-Workflows
+
+.cols[
+.fifty[
+- Bildvorverarbeitung
+- Layoutanalyse
+]
+.fifty[
+<center>
+<img src="img/grenzboten_opt.svg" />
+</center>
+]
+]
+
+---
+
+count: false
+
+# Komponenten eines einfachen OCR-Workflows
+
+.cols[
+.fifty[
+- Bildvorverarbeitung
+- Layoutanalyse
+]
+.fifty[
+<center>
+<img src="img/grenzboten_struct.svg" />
+</center>
+]
+]
+
+---
+
+count: false
+
+# Komponenten eines einfachen OCR-Workflows
+
+.cols[
+.fifty[
+- Bildvorverarbeitung
+- Layoutanalyse
+- Texterkennung
+]
+.fifty[
+<center>
+<img src="img/grenzboten_struct.svg" />
+</center>
+]
+]
+
+---
+
+count: false
+
+# Komponenten eines einfachen OCR-Workflows
+
+.cols[
+.fifty[
+- Bildvorverarbeitung
+- Layoutanalyse
+- Texterkennung
+]
+.fifty[
+<center>
+<img src="img/grenzboten_text.svg" />
 </center>
 ]
 ]
