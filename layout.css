@@ -42,9 +42,13 @@ ul > li > ol > li > ul > li { font-size:1.1rem }
 
 .remark-slide-number { bottom:15px; right:70px; font-size:8pt }
 
-.title-slide h1 { text-align:center; margin-top:100px; font-family: 'Open Sans', sans-serif }
-.title-slide h2 { font-size:2rem; color:#cc0000; text-align:center; margin-top:30px; font-family: 'Open Sans', sans-serif }
+.title-slide h1 { text-align:left; margin-top:80px; font-family: 'Open Sans', sans-serif }
+.title-slide h2 { font-size:2rem; color:#cc0000; text-align:left; margin-top:30px; font-family: 'Open Sans', sans-serif }
 .title-slide .remark-slide-number { display:none }
+
+.part-slide h1 { text-align:center; margin-top:80px; font-family: 'Open Sans', sans-serif }
+.part-slide h2 { font-size:2rem; color:#cc0000; text-align:center; margin-top:30px; font-family: 'Open Sans', sans-serif }
+.part-slide .remark-slide-number { display:none }
 
 .my-header {
   position: fixed;
@@ -90,21 +94,30 @@ ul > li > ol > li > ul > li { font-size:1.1rem }
   height: 70px;
   width: 100%
 }
+
 .title-slide .my-footer {
+  display: none
+}
+
+:not(.title-slide) .my-title-footer {
+  display: none
+}
+
+.title-slide .my-title-footer {
   background-image: url(img/bg.png);
   background-position: 0px 0px;
   border-top: 0px solid #222;
   background-size: 100%;
   position: absolute;
-  height: 270px;
+  height: 370px;
   width: 100%;
   bottom: 0px;
   left: 0px;
   font-family: 'Open Sans', sans-serif;
 }
-.title-slide .my-footer a { color:#fff; text-decoration:none; font-family: 'Open Sans', sans-serif }
+.title-slide .my-title-footer a { color:#fff; text-decoration:none; font-family: 'Open Sans', sans-serif }
 
-.title-slide .my-footer td {
+.title-slide .my-title-footer td {
   font-size: 12pt;
   color: #fff;
   padding:0px 10px;

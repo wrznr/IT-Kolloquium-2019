@@ -16,6 +16,26 @@ layout: true
   </table>
 </div>
 
+<div class="my-title-footer">
+  <table>
+    <tr>
+      <td style="text-align:left"><b>Kay-Michael Würzner</b></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Referat 2.5</td>
+    </tr>
+    <tr/>
+    <tr/>
+    <tr/>
+    <tr/>
+    <tr/>
+    <tr>
+      <td style="font-size: 8pt"><b>6. Juni 2019</b></td>
+      <td style="font-size: 8pt">IT-Kolloquium, SLUB Dresden</td>
+    </tr>
+  </table>
+</div>
+
 ---
 
 class: title-slide
