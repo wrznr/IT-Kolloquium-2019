@@ -77,7 +77,7 @@ class: part-slide
   + ...
 ]
 .fourty[
-<center><img src="img/times.png" /></center>
+<center><img src="img/times.svg" /></center>
 ]
 ]
 
@@ -88,8 +88,8 @@ class: part-slide
 .cols[
 .seventy[
 - Erkennung erfolgt *glyphenweise*
-  - **Pattern matching**: Vergleich der Zeichenbilder zu in einem „Setzkasten“ gespeicherten Glyphen **Pixel für Pixel**
-  - **Feature extraction**: Zerlegung der Glyphen in vordefinierte, bedeutungstragende **Eigenschaften** wie *Einfärbung*, *Kurven*, *Linien* etc. und Vergleich zu Referenzmaterialien
+  - **Mustervergleich**: Vergleich der Zeichenbilder zu in einem „Setzkasten“ gespeicherten Glyphen **Pixel für Pixel**
+  - **Merkmalsvergleich**: Zerlegung der Glyphen in vordefinierte, bedeutungstragende **Eigenschaften** wie *Einfärbung*, *Kurven*, *Linien* etc. und Vergleich zu Referenzmaterialien
 - Kombination beider Ansätze!
 - Zerlegung der Seite in *Zeilen* und *Zeichen* notwendig
 - Vorgehen in `ABBYY FineReader`
@@ -98,3 +98,23 @@ class: part-slide
 <center><img src="img/char.svg" /></center>
 ]
 ]
+
+---
+
+# Zeilenorientierte Ansätze
+
+- Erkennung erfolgt *zeilenweise*
+  1. **Skalierung:** einheitliche Höhe für alle Zeilen
+  2. **Merkmalsextraktion**: Raster mit festgelegter Anzahl (horizontaler) Zeilen und variabler Anzahl (vertikaler) Spalten → Zeilen als Sequenzen binärwertiger Vektoren fixer Länge
+<center><img src="img/grid.svg" /></center>
+- kontextsensitive Erkennung über *Übergangswahrscheinlichkeiten* der Vektoren
+- Zerlegung der Seite in *Zeilen* notwendig
+- Vorgehen *robuster* gegenüber Varianz durch Artefakte als zeichenorientierte Ansätze
+- `Tesseract` (ab Version 4) und die Cephalopoda (`OCRopus`, `kraken`, `Calamari`)
+  + Einsatz *neuronaler Netze* für die Sequenzklassifikation
+
+---
+
+class: part-slide
+
+# Wozu benutzt man OCR?
