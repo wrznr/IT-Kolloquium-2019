@@ -492,35 +492,38 @@ count: false
 
 .cols[
 .fifty[
+<p style="font-size:1.4rem">
 Zuletzt wird anders nichts darans/
 Dir zacke1 dieser Erden r ’’
 Die Sonne/Kindrr/Frenud’ vnd Hauß
 Muß übergeben werden/ ’’
 Denn dirNatnr erlässt vns’ mehr ’
 Der streugenSchnld ondPflichr.
+</p>
 ]
 .fifty[
+<p style="font-size:1.4rem">
 Zuletzt wird anders nichts darans/
 Die Fackel dieser Erden
 Die Sonne/Kinder/Frennnd’ vnd Hauß
 Muß übergeben werden/
 Denn deeNainr erlässt vns nicht
 Der strengen Schuld vndPflicht.
+</p>
 ]
 ]
 
 ---
 
 # Komponenten eines einfachen OCR-Workflows: Bildvorverarbeitung
-## Werkzeuge
 
 - Bestandteil der meisten OCR-Programme, häufig jedoch nicht modular
 - spezielle Tools
-  + `Scantailor` <a href="https://github.com/scantailor/scantailor">https://github.com/scantailor/scantailor</a>
-    * umfassendes, frei verfügbares Werkzeug
-    * keine Programmierschnittstelle (API), keine Weiterentwicklung
-  + `Olena/SCRIBO` <a href="https://www.lrde.epita.fr/wiki/Olena/Modules#SCRIBO">https://www.lrde.epita.fr/wiki/Olena/Modules#SCRIBO</a>
-    * frei verfügbare Programmierbibliothek für Deskewing, Binarisierung
-    * keine Weiterentwicklung/Pflege, schlechtes API-Design
-  + `Unpaper` <a href="https://github.com/Flameeyes/unpaper">https://github.com/Flameeyes/unpaper</a>
-    * frei verfügbare Programmierbibliothek für Deskewing und Despeckling
+    + `Scantailor` <a href="https://github.com/scantailor/scantailor">https://github.com/scantailor/scantailor</a>
+        * umfassendes, frei verfügbares Werkzeug
+        * keine Programmierschnittstelle (API), keine Weiterentwicklung
+    + `Olena/SCRIBO` <a href="https://www.lrde.epita.fr/wiki/Olena/Modules#SCRIBO">https://www.lrde.epita.fr/wiki/Olena/Modules#SCRIBO</a>
+        * frei verfügbare Programmierbibliothek für Deskewing, Binarisierung
+        * keine Weiterentwicklung/Pflege, schlechtes API-Design
+    + `Unpaper` <a href="https://github.com/Flameeyes/unpaper">https://github.com/Flameeyes/unpaper</a>
+        * frei verfügbare Programmierbibliothek für Deskewing und Despeckling
