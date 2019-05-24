@@ -416,14 +416,18 @@ count: false
 
 .cols[
 .fifty[
-<p style="margin-top:-40px">
+<center>
+<p style="margin-top:-35px">
 <img src="img/cropping_in.svg" height="500px" />
 </p>
+</center>
 ]
 .fifty[
-<p style="margin-top:-40px">
+<center>
+<p style="margin-top:-35px">
 <img src="img/cropping_out.svg" height="500px" />
 </p>
+</center>
 ]
 ]
 
@@ -433,14 +437,18 @@ count: false
 
 .cols[
 .fifty[
-<p style="margin-top:-40px">
+<center>
+<p style="margin-top:-35px">
 <img src="img/deskewing_in.svg" height="500px" />
 </p>
+</center>
 ]
 .fifty[
-<p style="margin-top:-40px">
+<center>
+<p style="margin-top:-35px">
 <img src="img/deskewing_out.svg" height="500px" />
 </p>
+</center>
 ]
 ]
 
@@ -496,12 +504,12 @@ count: false
 <img src="img/otsu.svg" />
 </center>
 <p style="font-size:1.4rem">
-Zuletzt wird anders nichts darans/<br/>
-Dir zacke1 dieser Erden r ’’<br/>
-Die Sonne/Kindrr/Frenud’ vnd Hauß<br/>
-Muß übergeben werden/ ’’<br/>
-Denn dirNatnr erlässt vns’ mehr ’<br/>
-Der streugenSchnld ondPflichr.
+Zuletzt wird anders nichts dara<span style="color:red">n</span>s/<br/>
+Di<span style="color:red">r</span> <span style="color:red">z</span>acke<span style="color:red">1</span> dieser Erden <span style="color:red">r ’’</span><br/>
+Die Sonne/Kind<span style="color:red">r</span>r/Fre<span style="color:red">nu</span>d’ vnd Hauß<br/>
+Muß übergeben werden/ <span style="color:red">’’</span><br/>
+Denn di<span style="color:red">rNat<span style="color:red">n</span>r erlässt vns<span style="color:red">’ mehr ’</span><br/>
+Der stre<span style="color:red">u</span>genSch<span style="color:red">n</span>ld <span style="color:red">o</span>ndPflich<span style="color:red">r</span>.
 </p>
 ]
 .fifty[
@@ -509,11 +517,11 @@ Der streugenSchnld ondPflichr.
 <img src="img/wolf.svg" />
 </center>
 <p style="font-size:1.4rem">
-Zuletzt wird anders nichts darans/<br/>
+Zuletzt wird anders nichts dara<span style="color:red">n</span>s/<br/>
 Die Fackel dieser Erden<br/>
-Die Sonne/Kinder/Frennnd’ vnd Hauß<br/>
+Die Sonne/Kinder/Fren<span style="color:red">n</span>nd’ vnd Hauß<br/>
 Muß übergeben werden/<br/>
-Denn deeNainr erlässt vns nicht<br/>
+Denn de<span style="color:red">e</span>Na<span style="color:red">in</span>r erlässt vns nicht<br/>
 Der strengen Schuld vndPflicht.
 </p>
 ]
