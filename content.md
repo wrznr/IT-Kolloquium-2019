@@ -77,6 +77,6 @@ class: part-slide
   + ...C
 ]
 .fourty[
-<center><img src="img/times.svg" /></center>
+<center><img src="img/times.svg" height="300" /></center>
 ]
 ]
