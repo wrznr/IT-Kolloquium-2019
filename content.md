@@ -110,7 +110,7 @@ class: part-slide
 - kontextsensitive Erkennung über *Übergangswahrscheinlichkeiten* der Vektoren
 - Zerlegung der Seite in *Zeilen* notwendig
 - Vorgehen *robuster* gegenüber Varianz durch Artefakte als zeichenorientierte Ansätze
-- `Tesseract` (ab Version 4) und die Cephalopoda (`OCRopus`, `kraken`, `Calamari`)
+- `Tesseract` (ab Version 4), `OCRopus`, `kraken`, `Calamari`
   + Einsatz *neuronaler Netze* für die Sequenzklassifikation
 
 ---
