@@ -74,7 +74,7 @@ class: part-slide
   + Bildvorverarbeitung
   + Layoutanalyse (OLR)
   + Zeilenerkennung
-  + ...B
+  + ...C
 ]
 .fifty[
 - Test
