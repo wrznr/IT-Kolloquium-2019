@@ -94,7 +94,7 @@ class: part-slide
 - Zerlegung der Seite in *Zeilen* und *Zeichen* notwendig
 - Vorgehen in `ABBYY FineReader`
 ]
-.thirty[
+.fourty[
 <center><img src="img/char.svg" /></center>
 ]
 ]
@@ -106,7 +106,7 @@ class: part-slide
 - Erkennung erfolgt *zeilenweise*
   1. **Skalierung:** einheitliche Höhe für alle Zeilen
   2. **Merkmalsextraktion**: Raster mit festgelegter Anzahl (horizontaler) Zeilen und variabler Anzahl (vertikaler) Spalten → Zeilen als Sequenzen binärwertiger Vektoren fixer Länge
-<center><img src="img/grid.svg" /></center>
+<center><img src="img/grid.svg" width="600px"/></center>
 - kontextsensitive Erkennung über *Übergangswahrscheinlichkeiten* der Vektoren
 - Zerlegung der Seite in *Zeilen* notwendig
 - Vorgehen *robuster* gegenüber Varianz durch Artefakte als zeichenorientierte Ansätze
