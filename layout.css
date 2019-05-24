@@ -124,19 +124,8 @@ ul > li > ol > li > ul > li { font-size:1.1rem }
   font-family: 'Open Sans', sans-serif
 }
 
-#left {
-  left:-8.33%;
-  text-align: left;
-  float: left;
-  width:50%;
-  z-index:-10;
-}
+.column:first-of-type {float:left}
+.column:last-of-type {float:right}
 
-#right {
-  left:31.25%;
-  top: 75px;
-  float: right;
-  text-align: right;
-  z-index:-10;
-  width:50%;
-}
+.split-50 .column:first-of-type {width: 50%}
+.split-50 .column:last-of-type {width: 50%}

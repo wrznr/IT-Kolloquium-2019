@@ -64,28 +64,16 @@ class: part-slide
 
 ---
 
+class: split-50
+
 # Was ist OCR?
 
-<style>
-.container{
-    display: flex;
-}
-.col{
-    flex: 1;
-}
-</style>
-
-<div class="container">
-
-<div class="col" data-markdown>
-
+.column[
 - **O**ptical **C**haracter **R**ecognition: Automatische Erfassung von Text in Bildern
 - ursprünglich begrenzt auf Zeichenerkennung
 - heute häufig Synonym für den gesamten Texterfassungsprozess
   + Bildvorverarbeitung
   + Layoutanalyse (OLR)
   + Zeilenerkennung
-  + ...A
-
-</div>
-</div>
+  + ...B
+]
