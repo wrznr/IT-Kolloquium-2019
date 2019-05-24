@@ -124,8 +124,10 @@ ul > li > ol > li > ul > li { font-size:1.1rem }
   font-family: 'Open Sans', sans-serif
 }
 
-.column:first-of-type {float:left}
-.column:last-of-type {float:right}
+.cols{
+  display: flex;
+}
 
-.split-50 .column:first-of-type {width: 50%}
-.split-50 .column:last-of-type {width: 50%}
+.fifty{
+  flex: 50%;
+}

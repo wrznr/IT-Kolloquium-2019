@@ -68,7 +68,8 @@ class: split-50
 
 # Was ist OCR?
 
-.column[
+.cols[
+.fifty[
 - **O**ptical **C**haracter **R**ecognition: Automatische Erfassung von Text in Bildern
 - ursprünglich begrenzt auf Zeichenerkennung
 - heute häufig Synonym für den gesamten Texterfassungsprozess
@@ -77,6 +78,7 @@ class: split-50
   + Zeilenerkennung
   + ...B
 ]
-.column[
+.fifty[
 - Test
+]
 ]
