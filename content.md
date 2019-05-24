@@ -86,15 +86,15 @@ class: part-slide
 # Zeichenorientierte Ansätze
 
 .cols[
-.eighty[
+.seventy[
 - Erkennung erfolgt *glyphenweise*
   - **Pattern matching**: Vergleich der Zeichenbilder zu in einem „Setzkasten“ gespeicherten Glyphen **Pixel für Pixel**
   - **Feature extraction**: Zerlegung der Glyphen in vordefinierte, bedeutungstragende **Eigenschaften** wie *Einfärbung*, *Kurven*, *Linien* etc. und Vergleich zu Referenzmaterialien
-- Kombination beider Ansätze möglich
+- Kombination beider Ansätze!
 - Zerlegung der Seite in *Zeilen* und *Zeichen* notwendig
 - Vorgehen in `ABBYY FineReader`
 ]
-.twenty[
+.thirty[
 <center><img src="img/char.svg" /></center>
 ]
 ]
