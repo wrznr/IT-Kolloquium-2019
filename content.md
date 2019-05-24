@@ -284,7 +284,7 @@ count: false
 ]
 .fourty[
 <center>
-<img src="img/grenzboten_raw.svg" height="300px" />
+<img src="img/grenzboten_raw.svg" />
 </center>
 ]
 ]
@@ -301,7 +301,7 @@ count: false
 ]
 .fourty[
 <center>
-<img src="img/grenzboten_raw.svg" height="300px" />
+<img src="img/grenzboten_raw.svg" />
 </center>
 ]
 ]
@@ -318,25 +318,7 @@ count: false
 ]
 .fourty[
 <center>
-<img src="img/grenzboten_opt.svg" height="300px" />
-</center>
-]
-]
-
----
-
-count: false
-
-# Komponenten eines einfachen OCR-Workflows
-
-.cols[
-.fifty[
-- Bildvorverarbeitung
-- Layoutanalyse
-]
-.fourty[
-<center>
-<img src="img/grenzboten_opt.svg" height="300px" />
+<img src="img/grenzboten_opt.svg" />
 </center>
 ]
 ]
@@ -354,7 +336,7 @@ count: false
 ]
 .fourty[
 <center>
-<img src="img/grenzboten_struct.svg" height="300px" />
+<img src="img/grenzboten_opt.svg" />
 </center>
 ]
 ]
@@ -369,11 +351,10 @@ count: false
 .fifty[
 - Bildvorverarbeitung
 - Layoutanalyse
-- Texterkennung
 ]
 .fourty[
 <center>
-<img src="img/grenzboten_struct.svg" height="300px" />
+<img src="img/grenzboten_struct.svg" />
 </center>
 ]
 ]
@@ -392,7 +373,26 @@ count: false
 ]
 .fourty[
 <center>
-<img src="img/grenzboten_text.svg" height="300px" />
+<img src="img/grenzboten_struct.svg" />
+</center>
+]
+]
+
+---
+
+count: false
+
+# Komponenten eines einfachen OCR-Workflows
+
+.cols[
+.fifty[
+- Bildvorverarbeitung
+- Layoutanalyse
+- Texterkennung
+]
+.fourty[
+<center>
+<img src="img/grenzboten_text.svg" />
 </center>
 ]
 ]
@@ -492,7 +492,19 @@ count: false
 
 .cols[
 .fifty[
+Zuletzt wird anders nichts darans/
+Dir zacke1 dieser Erden r ’’
+Die Sonne/Kindrr/Frenud’ vnd Hauß
+Muß übergeben werden/ ’’
+Denn dirNatnr erlässt vns’ mehr ’
+Der streugenSchnld ondPflichr.
 ]
 .fifty[
+Zuletzt wird anders nichts darans/
+Die Fackel dieser Erden
+Die Sonne/Kinder/Frennnd’ vnd Hauß
+Muß übergeben werden/
+Denn deeNainr erlässt vns nicht
+Der strengen Schuld vndPflicht.
 ]
 ]
