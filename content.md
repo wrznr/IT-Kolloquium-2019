@@ -85,7 +85,7 @@ class: part-slide
   + Bildvorverarbeitung
   + Layoutanalyse (OLR)
   + Zeilenerkennung
-  + ...
+  + ...A
 
 </div>
 </div>
