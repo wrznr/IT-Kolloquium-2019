@@ -109,7 +109,7 @@ ul > li > ol > li > ul > li { font-size:1.1rem }
   border-top: 0px solid #222;
   background-size: 100%;
   position: absolute;
-  height: 370px;
+  height: 270px;
   width: 100%;
   bottom: 0px;
   left: 0px;
@@ -122,4 +122,21 @@ ul > li > ol > li > ul > li { font-size:1.1rem }
   color: #fff;
   padding:0px 10px;
   font-family: 'Open Sans', sans-serif
+}
+
+#left {
+  left:-8.33%;
+  text-align: left;
+  float: left;
+  width:50%;
+  z-index:-10;
+}
+
+#right {
+  left:31.25%;
+  top: 75px;
+  float: right;
+  text-align: right;
+  z-index:-10;
+  width:50%;
 }
