@@ -77,7 +77,7 @@ class: part-slide
 
 <div class="container">
 
-<div class="col">
+<div class="col" data-markdown>
 
 - **O**ptical **C**haracter **R**ecognition: Automatische Erfassung von Text in Bildern
 - ursprünglich begrenzt auf Zeichenerkennung
