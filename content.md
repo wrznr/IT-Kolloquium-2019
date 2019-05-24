@@ -391,9 +391,9 @@ count: false
 - Texterkennung
 ]
 .fourty[
-<center>
+<p style="margin-top:-80px">
 <img src="img/grenzboten_text.svg" />
-</center>
+</p>
 ]
 ]
 
@@ -417,12 +417,12 @@ count: false
 .cols[
 .fifty[
 <center>
-<img src="img/cropping_in.svg" height="300px" />
+<img src="img/cropping_in.svg" height="500px" />
 </center>
 ]
 .fifty[
 <center>
-<img src="img/cropping_out.svg" height="300px" />
+<img src="img/cropping_out.svg" height="500px" />
 </center>
 ]
 ]
@@ -434,12 +434,12 @@ count: false
 .cols[
 .fifty[
 <center>
-<img src="img/deskewing_in.svg" height="300px" />
+<img src="img/deskewing_in.svg" height="500px" />
 </center>
 ]
 .fifty[
 <center>
-<img src="img/deskewing_out.svg" height="300px" />
+<img src="img/deskewing_out.svg" height="500px" />
 </center>
 ]
 ]
