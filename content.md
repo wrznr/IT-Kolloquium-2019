@@ -283,9 +283,9 @@ count: false
 .fifty[
 ]
 .fourty[
-<center>
+<p style="margin-top:-80px">
 <img src="img/grenzboten_raw.svg" />
-</center>
+</p>
 ]
 ]
 
@@ -300,9 +300,9 @@ count: false
 - Bildvorverarbeitung
 ]
 .fourty[
-<center>
+<p style="margin-top:-80px">
 <img src="img/grenzboten_raw.svg" />
-</center>
+</p>
 ]
 ]
 
@@ -317,9 +317,9 @@ count: false
 - Bildvorverarbeitung
 ]
 .fourty[
-<center>
+<p style="margin-top:-80px">
 <img src="img/grenzboten_opt.svg" />
-</center>
+</p>
 ]
 ]
 
@@ -335,9 +335,9 @@ count: false
 - Layoutanalyse
 ]
 .fourty[
-<center>
+<p style="margin-top:-80px">
 <img src="img/grenzboten_opt.svg" />
-</center>
+</p>
 ]
 ]
 
@@ -353,9 +353,9 @@ count: false
 - Layoutanalyse
 ]
 .fourty[
-<center>
+<p style="margin-top:-80px">
 <img src="img/grenzboten_struct.svg" />
-</center>
+</p>
 ]
 ]
 
@@ -372,9 +372,9 @@ count: false
 - Texterkennung
 ]
 .fourty[
-<center>
+<p style="margin-top:-80px">
 <img src="img/grenzboten_struct.svg" />
-</center>
+</p>
 ]
 ]
 
@@ -416,14 +416,14 @@ count: false
 
 .cols[
 .fifty[
-<center>
+<p style="margin-top:-40px">
 <img src="img/cropping_in.svg" height="500px" />
-</center>
+</p>
 ]
 .fifty[
-<center>
+<p style="margin-top:-40px">
 <img src="img/cropping_out.svg" height="500px" />
-</center>
+</p>
 ]
 ]
 
@@ -433,14 +433,14 @@ count: false
 
 .cols[
 .fifty[
-<center>
+<p style="margin-top:-40px">
 <img src="img/deskewing_in.svg" height="500px" />
-</center>
+</p>
 ]
 .fifty[
-<center>
+<p style="margin-top:-40px">
 <img src="img/deskewing_out.svg" height="500px" />
-</center>
+</p>
 ]
 ]
 
@@ -492,22 +492,28 @@ count: false
 
 .cols[
 .fifty[
+<center>
+<img src="img/otsu.svg" />
+</center>
 <p style="font-size:1.4rem">
-Zuletzt wird anders nichts darans/
-Dir zacke1 dieser Erden r ’’
-Die Sonne/Kindrr/Frenud’ vnd Hauß
-Muß übergeben werden/ ’’
-Denn dirNatnr erlässt vns’ mehr ’
+Zuletzt wird anders nichts darans/<br/>
+Dir zacke1 dieser Erden r ’’<br/>
+Die Sonne/Kindrr/Frenud’ vnd Hauß<br/>
+Muß übergeben werden/ ’’<br/>
+Denn dirNatnr erlässt vns’ mehr ’<br/>
 Der streugenSchnld ondPflichr.
 </p>
 ]
 .fifty[
+<center>
+<img src="img/wolf.svg" />
+</center>
 <p style="font-size:1.4rem">
-Zuletzt wird anders nichts darans/
-Die Fackel dieser Erden
-Die Sonne/Kinder/Frennnd’ vnd Hauß
-Muß übergeben werden/
-Denn deeNainr erlässt vns nicht
+Zuletzt wird anders nichts darans/<br/>
+Die Fackel dieser Erden<br/>
+Die Sonne/Kinder/Frennnd’ vnd Hauß<br/>
+Muß übergeben werden/<br/>
+Denn deeNainr erlässt vns nicht<br/>
 Der strengen Schuld vndPflicht.
 </p>
 ]
