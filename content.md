@@ -135,7 +135,7 @@ count: false
 .fourty[
 <center>
 <img src="img/anpr.svg" width="300px" />
-<p font-size="4pt">Image by Achim Raschka, CC BY-SA 3.0</p>
+<p style="font-size:4pt;">Image by Achim Raschka, CC BY-SA 3.0</p>
 </center>
 ]
 ]
@@ -155,7 +155,7 @@ count: false
 .fourty[
 <center>
 <img src="img/captcha.svg" width="300px" />
-<p font-size="4pt">Image by JD, CC BY-SA 2.0</p>
+<p style="font-size:4pt;">Image by JD, CC BY-SA 2.0</p>
 </center>
 ]
 ]
@@ -176,7 +176,7 @@ count: false
 .fourty[
 <center>
 <img src="img/deposit.svg" width="300px" />
-<p font-size="4pt">Image by Eluminary, CC BY-SA 2.0</p>
+<p style="font-size:4pt;">Image by Eluminary, CC BY-SA 2.0</p>
 </center>
 ]
 ]
@@ -220,7 +220,7 @@ count: false
 .fourty[
 <center>
 <img src="img/beauvais_0.svg" width="300px" />
-<p font-size="4pt">Image by Uwe Springmann, CC BY-SA 4.0</p>
+<p style="font-size:4pt;">Image by Uwe Springmann, CC BY-SA 4.0</p>
 </center>
 ]
 ]
@@ -243,7 +243,7 @@ count: false
 .fourty[
 <center>
 <img src="img/beauvais_1.svg" width="300px" />
-<p font-size="4pt">Image by Uwe Springmann, CC BY-SA 4.0</p>
+<p style="font-size:4pt;">Image by Uwe Springmann, CC BY-SA 4.0</p>
 </center>
 ]
 ]
@@ -485,3 +485,14 @@ count: false
 <center>
 <img src="img/dewarping_in_out.svg" />
 </center>
+
+---
+
+# Komponenten eines einfachen OCR-Workflows: Einfluss
+
+.cols[
+.fifty[
+]
+.fifty[
+]
+]
