@@ -396,3 +396,16 @@ count: false
 </center>
 ]
 ]
+
+---
+
+# Komponenten eines einfachen OCR-Workflows: Bildvorverarbeitung
+
+- Prozesse zur bestmöglichen Vorbereitung der Digitalisate für OLR und OCR
+  + **Cropping**: Beschneidung des Digitalisats auf den Druckbereich
+  + **Deskewing**: Rotation des Digitalisats zur Begradigung von Schrägstellungen
+  + **Binarization**: Binäre Kodierung der Pixel (bedruckte Bereiche schwarz, nicht-bedruckte Bereiche weiß)
+  + **Despeckling**: Entfernung von Bildartefakten (Verschmutzungen, sichtbare Papiermaserung etc.)
+  + **Dewarping**: Begradigung von Wellen auf Zeilenebene
+- starker Einfluss auf Erkennungsqualität
+- besondere Relevanz für historische Vorlagen
