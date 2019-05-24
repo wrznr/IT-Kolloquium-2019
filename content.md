@@ -25,8 +25,10 @@ layout: true
       <td style="text-align:left">Referat 2.5</td>
     </tr>
     <tr>
-      <td style="font-size: 8pt"><b>6. Juni 2019</b></td>
-      <td style="font-size: 8pt">IT-Kolloquium, SLUB Dresden</td>
+      <td style="font-size:8pt"><b>6. Juni 2019</b></td>
+    </tr>
+    <tr>
+      <td style="font-size:8pt">IT-Kolloquium, SLUB Dresden</td>
     </tr>
   </table>
 </div>
