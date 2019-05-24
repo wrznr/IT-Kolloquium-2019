@@ -508,7 +508,7 @@ Zuletzt wird anders nichts dara<span style="color:red">n</span>s/<br/>
 Di<span style="color:red">r</span> <span style="color:red">z</span>acke<span style="color:red">1</span> dieser Erden <span style="color:red">r ’’</span><br/>
 Die Sonne/Kind<span style="color:red">r</span>r/Fre<span style="color:red">nu</span>d’ vnd Hauß<br/>
 Muß übergeben werden/ <span style="color:red">’’</span><br/>
-Denn di<span style="color:red">rNat<span style="color:red">n</span>r erlässt vns<span style="color:red">’ mehr ’</span><br/>
+Denn di<span style="color:red">r</span>Nat<span style="color:red">n</span>r erlässt vns<span style="color:red">’ mehr ’</span><br/>
 Der stre<span style="color:red">u</span>genSch<span style="color:red">n</span>ld <span style="color:red">o</span>ndPflich<span style="color:red">r</span>.
 </p>
 ]
