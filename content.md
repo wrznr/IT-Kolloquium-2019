@@ -282,7 +282,7 @@ count: false
 .cols[
 .fifty[
 ]
-.thirty[
+.fourty[
 <center>
 <img src="img/grenzboten_raw.svg" height="300px" />
 </center>
@@ -299,7 +299,7 @@ count: false
 .fifty[
 - Bildvorverarbeitung
 ]
-.thirty[
+.fourty[
 <center>
 <img src="img/grenzboten_raw.svg" height="300px" />
 </center>
@@ -316,7 +316,7 @@ count: false
 .fifty[
 - Bildvorverarbeitung
 ]
-.thirty[
+.fourty[
 <center>
 <img src="img/grenzboten_opt.svg" height="300px" />
 </center>
@@ -334,7 +334,7 @@ count: false
 - Bildvorverarbeitung
 - Layoutanalyse
 ]
-.thirty[
+.fourty[
 <center>
 <img src="img/grenzboten_opt.svg" height="300px" />
 </center>
@@ -352,7 +352,7 @@ count: false
 - Bildvorverarbeitung
 - Layoutanalyse
 ]
-.thirty[
+.fourty[
 <center>
 <img src="img/grenzboten_struct.svg" height="300px" />
 </center>
@@ -371,7 +371,7 @@ count: false
 - Layoutanalyse
 - Texterkennung
 ]
-.thirty[
+.fourty[
 <center>
 <img src="img/grenzboten_struct.svg" height="300px" />
 </center>
@@ -390,7 +390,7 @@ count: false
 - Layoutanalyse
 - Texterkennung
 ]
-.thirty[
+.fourty[
 <center>
 <img src="img/grenzboten_text.svg" height="300px" />
 </center>
@@ -415,6 +415,7 @@ count: false
 # Komponenten eines einfachen OCR-Workflows: Cropping
 
 .cols[
+.fifty[
 <center>
 <img src="img/cropping_in.svg" height="300px" />
 </center>
@@ -431,6 +432,7 @@ count: false
 # Komponenten eines einfachen OCR-Workflows: Deskewing
 
 .cols[
+.fifty[
 <center>
 <img src="img/deskewing_in.svg" height="300px" />
 </center>
@@ -447,6 +449,7 @@ count: false
 # Komponenten eines einfachen OCR-Workflows: Binarization
 
 .cols[
+.fifty[
 <center>
 <img src="img/binarization_in.svg" height="300px" />
 </center>
@@ -463,6 +466,7 @@ count: false
 # Komponenten eines einfachen OCR-Workflows: Despeckling
 
 .cols[
+.fifty[
 <center>
 <img src="img/despeckling_in.svg" height="300px" />
 </center>
@@ -479,5 +483,5 @@ count: false
 # Komponenten eines einfachen OCR-Workflows: Dewarping
 
 <center>
-<img src="img/dewarping_in.svg" />
+<img src="img/dewarping_in_out.svg" />
 </center>
