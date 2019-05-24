@@ -32,8 +32,14 @@ class: title-slide
 
 # Überblick
 
-Vier Ziele:
-1. Vermittlung grundlegender Konzepte
-2. Veranschaulichung der einzelnen Prozessschritte
-3. Blick auf vorhandene Werkzeuge und deren Möglichkeiten
-4. Einstieg in relevante Fallbeispiele
+- Einleitung
+  + Was ist OCR?
+  + Wozu benutzt man OCR?
+- Technische Aspekte
+  + Komponenten eines einfachen OCR-Workflows
+  + Modelltraining
+  + Optimierungsoptionen
+  + Komplexere OCR-Workflows
+- Nichttechnische Aspekte
+  + OCR-D
+  + Open-Source, und dann?
