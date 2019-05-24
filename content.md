@@ -282,9 +282,9 @@ count: false
 .cols[
 .fifty[
 ]
-.fifty[
+.thirty[
 <center>
-<img src="img/grenzboten_raw.svg" height="600px" />
+<img src="img/grenzboten_raw.svg" height="300px" />
 </center>
 ]
 ]
@@ -299,9 +299,9 @@ count: false
 .fifty[
 - Bildvorverarbeitung
 ]
-.fifty[
+.thirty[
 <center>
-<img src="img/grenzboten_raw.svg" height="600px" />
+<img src="img/grenzboten_raw.svg" height="300px" />
 </center>
 ]
 ]
@@ -316,27 +316,9 @@ count: false
 .fifty[
 - Bildvorverarbeitung
 ]
-.fifty[
+.thirty[
 <center>
-<img src="img/grenzboten_opt.svg" height="600px" />
-</center>
-]
-]
-
----
-
-count: false
-
-# Komponenten eines einfachen OCR-Workflows
-
-.cols[
-.fifty[
-- Bildvorverarbeitung
-- Layoutanalyse
-]
-.fifty[
-<center>
-<img src="img/grenzboten_opt.svg" height="600px" />
+<img src="img/grenzboten_opt.svg" height="300px" />
 </center>
 ]
 ]
@@ -352,9 +334,9 @@ count: false
 - Bildvorverarbeitung
 - Layoutanalyse
 ]
-.fifty[
+.thirty[
 <center>
-<img src="img/grenzboten_struct.svg" height="600px" />
+<img src="img/grenzboten_opt.svg" height="300px" />
 </center>
 ]
 ]
@@ -369,11 +351,10 @@ count: false
 .fifty[
 - Bildvorverarbeitung
 - Layoutanalyse
-- Texterkennung
 ]
-.fifty[
+.thirty[
 <center>
-<img src="img/grenzboten_struct.svg" height="600px" />
+<img src="img/grenzboten_struct.svg" height="300px" />
 </center>
 ]
 ]
@@ -390,9 +371,28 @@ count: false
 - Layoutanalyse
 - Texterkennung
 ]
-.fifty[
+.thirty[
 <center>
-<img src="img/grenzboten_text.svg" height="600px" />
+<img src="img/grenzboten_struct.svg" height="300px" />
+</center>
+]
+]
+
+---
+
+count: false
+
+# Komponenten eines einfachen OCR-Workflows
+
+.cols[
+.fifty[
+- Bildvorverarbeitung
+- Layoutanalyse
+- Texterkennung
+]
+.thirty[
+<center>
+<img src="img/grenzboten_text.svg" height="300px" />
 </center>
 ]
 ]
@@ -409,3 +409,75 @@ count: false
   + **Dewarping**: Begradigung von Wellen auf Zeilenebene
 - starker Einfluss auf Erkennungsqualität
 - besondere Relevanz für historische Vorlagen
+
+---
+
+# Komponenten eines einfachen OCR-Workflows: Cropping
+
+.cols[
+<center>
+<img src="img/cropping_in.svg" height="300px" />
+</center>
+]
+.fifty[
+<center>
+<img src="img/cropping_out.svg" height="300px" />
+</center>
+]
+]
+
+---
+
+# Komponenten eines einfachen OCR-Workflows: Deskewing
+
+.cols[
+<center>
+<img src="img/deskewing_in.svg" height="300px" />
+</center>
+]
+.fifty[
+<center>
+<img src="img/deskewing_out.svg" height="300px" />
+</center>
+]
+]
+
+---
+
+# Komponenten eines einfachen OCR-Workflows: Binarization
+
+.cols[
+<center>
+<img src="img/binarization_in.svg" height="300px" />
+</center>
+]
+.fifty[
+<center>
+<img src="img/binarization_out.svg" height="300px" />
+</center>
+]
+]
+
+---
+
+# Komponenten eines einfachen OCR-Workflows: Despeckling
+
+.cols[
+<center>
+<img src="img/despeckling_in.svg" height="300px" />
+</center>
+]
+.fifty[
+<center>
+<img src="img/despeckling_out.svg" height="300px" />
+</center>
+]
+]
+
+---
+
+# Komponenten eines einfachen OCR-Workflows: Dewarping
+
+<center>
+<img src="img/dewarping_in.svg" />
+</center>
