@@ -131,7 +131,7 @@ class: part-slide
 .fourty[
 <center>
 <img src="img/anpr.svg" width="300px" />
-<p font-size:0.8rem;>Image by Achim Raschka, CC BY-SA 3.0</p>
+<p font-size:0.5rem;>Image by Achim Raschka, CC BY-SA 3.0</p>
 </center>
 ]
 ]
@@ -151,7 +151,95 @@ count: false
 .fourty[
 <center>
 <img src="img/captcha.svg" width="300px" />
-<p font-size:0.8rem;>Image by JD, CC BY-SA 2.0</p>
+<p font-size:0.5rem;>Image by JD, CC BY-SA 2.0</p>
+</center>
+]
+]
+
+---
+
+count: false
+
+# Wozu benutzt man OCR?
+
+.cols[
+.sixty[
+- typische Anwendungen
+  - Nummernschilderkennung
+  - Captcha-Umgehung
+  - Schlüsselinformationsextraktion
+]
+.fourty[
+<center>
+<img src="img/deposit.svg" width="300px" />
+<p font-size:0.5rem;>Image by Eluminary, CC BY-SA 2.0</p>
+</center>
+]
+]
+
+---
+
+count: false
+
+# Wozu benutzt man OCR?
+
+.cols[
+.sixty[
+- typische Anwendungen
+  - Nummernschilderkennung
+  - Captcha-Umgehung
+  - Schlüsselinformationsextraktion
+  - Handschrifterkennung
+]
+.fourty[
+<center>
+<img src="img/transkribus.svg" width="300px" />
+</center>
+]
+]
+
+---
+
+count: false
+
+# Wozu benutzt man OCR?
+
+.cols[
+.sixty[
+- typische Anwendungen
+  - Nummernschilderkennung
+  - Captcha-Umgehung
+  - Schlüsselinformationsextraktion
+  - Handschrifterkennung
+  - Volltextdigitalisierung
+]
+.fourty[
+<center>
+<img src="img/beauvais_0.svg" width="300px" />
+<p font-size:0.5rem;>Image by Uwe Springmann, CC BY-SA 4.0</p>
+</center>
+]
+]
+
+---
+
+count: false
+
+# Wozu benutzt man OCR?
+
+.cols[
+.sixty[
+- typische Anwendungen
+  - Nummernschilderkennung
+  - Captcha-Umgehung
+  - Schlüsselinformationsextraktion
+  - Handschrifterkennung
+  - Volltextdigitalisierung
+]
+.fourty[
+<center>
+<img src="img/beauvais_1.svg" width="300px" />
+<p font-size:0.5rem;>Image by Uwe Springmann, CC BY-SA 4.0</p>
 </center>
 ]
 ]
