@@ -128,6 +128,10 @@ ul > li > ol > li > ul > li { font-size:1.1rem }
   display: flex;
 }
 
+.eighty{
+  flex: 80%;
+}
+
 .seventy{
   flex: 70%;
 }
@@ -146,4 +150,8 @@ ul > li > ol > li > ul > li { font-size:1.1rem }
 
 .thirty{
   flex: 30%;
+}
+
+.twenty{
+  flex: 20%;
 }

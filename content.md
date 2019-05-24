@@ -77,7 +77,7 @@ class: part-slide
   + ...
 ]
 .fourty[
-<center><img src="img/times.svg" /></center>
+<center><img src="img/times.png" /></center>
 ]
 ]
 
@@ -86,7 +86,7 @@ class: part-slide
 # Zeichenorientierte Ansätze
 
 .cols[
-.seventy[
+.eighty[
 - Erkennung erfolgt *glyphenweise*
   - **Pattern matching**: Vergleich der Zeichenbilder zu in einem „Setzkasten“ gespeicherten Glyphen **Pixel für Pixel**
   - **Feature extraction**: Zerlegung der Glyphen in vordefinierte, bedeutungstragende **Eigenschaften** wie *Einfärbung*, *Kurven*, *Linien* etc. und Vergleich zu Referenzmaterialien
@@ -94,7 +94,7 @@ class: part-slide
 - Zerlegung der Seite in *Zeilen* und *Zeichen* notwendig
 - Vorgehen in `ABBYY FineReader`
 ]
-.fourty[
-<center><img src="img/times.svg" /></center>
+.twenty[
+<center><img src="img/char.svg" /></center>
 ]
 ]
