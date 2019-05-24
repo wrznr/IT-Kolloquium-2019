@@ -135,7 +135,7 @@ count: false
 .fourty[
 <center>
 <img src="img/anpr.svg" width="300px" />
-<p font-size:4pt>Image by Achim Raschka, CC BY-SA 3.0</p>
+<p font-size="4pt">Image by Achim Raschka, CC BY-SA 3.0</p>
 </center>
 ]
 ]
@@ -155,7 +155,7 @@ count: false
 .fourty[
 <center>
 <img src="img/captcha.svg" width="300px" />
-<p font-size:4pt>Image by JD, CC BY-SA 2.0</p>
+<p font-size="4pt">Image by JD, CC BY-SA 2.0</p>
 </center>
 ]
 ]
@@ -176,7 +176,7 @@ count: false
 .fourty[
 <center>
 <img src="img/deposit.svg" width="300px" />
-<p font-size:4pt>Image by Eluminary, CC BY-SA 2.0</p>
+<p font-size="4pt">Image by Eluminary, CC BY-SA 2.0</p>
 </center>
 ]
 ]
@@ -220,7 +220,7 @@ count: false
 .fourty[
 <center>
 <img src="img/beauvais_0.svg" width="300px" />
-<p font-size:4pt>Image by Uwe Springmann, CC BY-SA 4.0</p>
+<p font-size="4pt">Image by Uwe Springmann, CC BY-SA 4.0</p>
 </center>
 ]
 ]
@@ -243,7 +243,7 @@ count: false
 .fourty[
 <center>
 <img src="img/beauvais_1.svg" width="300px" />
-<p font-size:4pt>Image by Uwe Springmann, CC BY-SA 4.0</p>
+<p font-size="4pt">Image by Uwe Springmann, CC BY-SA 4.0</p>
 </center>
 ]
 ]
@@ -284,7 +284,7 @@ count: false
 ]
 .fifty[
 <center>
-<img src="img/grenzboten_raw.svg" />
+<img src="img/grenzboten_raw.svg" height="600px" />
 </center>
 ]
 ]
@@ -301,7 +301,7 @@ count: false
 ]
 .fifty[
 <center>
-<img src="img/grenzboten_raw.svg" />
+<img src="img/grenzboten_raw.svg" height="600px" />
 </center>
 ]
 ]
@@ -318,25 +318,7 @@ count: false
 ]
 .fifty[
 <center>
-<img src="img/grenzboten_opt.svg" />
-</center>
-]
-]
-
----
-
-count: false
-
-# Komponenten eines einfachen OCR-Workflows
-
-.cols[
-.fifty[
-- Bildvorverarbeitung
-- Layoutanalyse
-]
-.fifty[
-<center>
-<img src="img/grenzboten_opt.svg" />
+<img src="img/grenzboten_opt.svg" height="600px" />
 </center>
 ]
 ]
@@ -354,7 +336,7 @@ count: false
 ]
 .fifty[
 <center>
-<img src="img/grenzboten_struct.svg" />
+<img src="img/grenzboten_opt.svg" height="600px" />
 </center>
 ]
 ]
@@ -369,11 +351,10 @@ count: false
 .fifty[
 - Bildvorverarbeitung
 - Layoutanalyse
-- Texterkennung
 ]
 .fifty[
 <center>
-<img src="img/grenzboten_struct.svg" />
+<img src="img/grenzboten_struct.svg" height="600px" />
 </center>
 ]
 ]
@@ -392,7 +373,26 @@ count: false
 ]
 .fifty[
 <center>
-<img src="img/grenzboten_text.svg" />
+<img src="img/grenzboten_struct.svg" height="600px" />
+</center>
+]
+]
+
+---
+
+count: false
+
+# Komponenten eines einfachen OCR-Workflows
+
+.cols[
+.fifty[
+- Bildvorverarbeitung
+- Layoutanalyse
+- Texterkennung
+]
+.fifty[
+<center>
+<img src="img/grenzboten_text.svg" height="600px" />
 </center>
 ]
 ]
