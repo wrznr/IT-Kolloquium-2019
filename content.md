@@ -118,3 +118,40 @@ class: part-slide
 class: part-slide
 
 # Wozu benutzt man OCR?
+
+---
+
+# Wozu benutzt man OCR?
+
+.cols[
+.sixty[
+- typische Anwendungen
+  - Nummernschilderkennung
+]
+.fourty[
+<center>
+<img src="img/anpr.svg" width="300px" />
+<p font-size:0.8rem;>Image by Achim Raschka, CC BY-SA 3.0</p>
+</center>
+]
+]
+
+---
+
+count: false
+
+# Wozu benutzt man OCR?
+
+.cols[
+.sixty[
+- typische Anwendungen
+  - Nummernschilderkennung
+  - Captcha-Umgehung
+]
+.fourty[
+<center>
+<img src="img/captcha.svg" width="300px" />
+<p font-size:0.8rem;>Image by JD, CC BY-SA 2.0</p>
+</center>
+]
+]
