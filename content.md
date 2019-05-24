@@ -64,8 +64,6 @@ class: part-slide
 
 ---
 
-class: split-50
-
 # Was ist OCR?
 
 .cols[
