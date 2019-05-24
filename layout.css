@@ -128,14 +128,22 @@ ul > li > ol > li > ul > li { font-size:1.1rem }
   display: flex;
 }
 
-.fifty{
-  flex: 50%;
+.seventy{
+  flex: 70%;
 }
 
 .sixty{
   flex: 60%;
 }
 
+.fifty{
+  flex: 50%;
+}
+
 .fourty{
   flex: 40%;
+}
+
+.thirty{
+  flex: 30%;
 }

@@ -74,9 +74,27 @@ class: part-slide
   + Bildvorverarbeitung
   + Layoutanalyse (OLR)
   + Zeilenerkennung
-  + ...C
+  + ...
 ]
 .fourty[
-<center><img src="img/times.svg" height="300" /></center>
+<center><img src="img/times.svg" /></center>
+]
+]
+
+---
+
+# Zeichenorientierte Ansätze
+
+.cols[
+.seventy[
+- Erkennung erfolgt *glyphenweise*
+  - **Pattern matching**: Vergleich der Zeichenbilder zu in einem „Setzkasten“ gespeicherten Glyphen **Pixel für Pixel**
+  - **Feature extraction**: Zerlegung der Glyphen in vordefinierte, bedeutungstragende **Eigenschaften** wie *Einfärbung*, *Kurven*, *Linien* etc. und Vergleich zu Referenzmaterialien
+- Kombination beider Ansätze möglich
+- Zerlegung der Seite in *Zeilen* und *Zeichen* notwendig
+- Vorgehen in `ABBYY FineReader`
+]
+.fourty[
+<center><img src="img/times.svg" /></center>
 ]
 ]
