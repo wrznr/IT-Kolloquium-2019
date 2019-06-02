@@ -533,13 +533,13 @@ Der strengen Schuld vndPflicht.
 
 - Bestandteil der meisten OCR-Programme, häufig jedoch nicht modular
 - spezielle Tools
-    + `Scantailor` [github.com/scantailor/scantailor](https://github.com/scantailor/scantailor)
+    + [`Scantailor`](https://github.com/scantailor/scantailor)
         * umfassendes, frei verfügbares Werkzeug
         * keine Programmierschnittstelle (API), keine Weiterentwicklung
-    + `Olena/SCRIBO` [www.lrde.epita.fr/wiki/Olena/Modules#SCRIBO](https://www.lrde.epita.fr/wiki/Olena/Modules#SCRIBO)
+    + [`Olena/SCRIBO`](https://www.lrde.epita.fr/wiki/Olena/Modules#SCRIBO)
         * frei verfügbare Programmierbibliothek für Deskewing, Binarisierung
         * keine Weiterentwicklung/Pflege, schlechtes API-Design
-    + `Unpaper` [github.com/Flameeyes/unpaper](https://github.com/Flameeyes/unpaper)
+    + [`Unpaper`](https://github.com/Flameeyes/unpaper)
         * frei verfügbare Programmierbibliothek für Deskewing und Despeckling
 
 ---
@@ -547,10 +547,10 @@ Der strengen Schuld vndPflicht.
 # OCR-Workflow: Werkzeuge *Bildvorverarbeitung*
 
 - teilweise auch in Bildbearbeitungsbibliotheken integriert
-    + `ImageMagick` [www.imagemagick.org](https://www.imagemagick.org/)
+    + [`ImageMagick`](https://www.imagemagick.org/)
         * extrem umfangreiches, frei verfügbares Softwarepaket
         * keine spezifische OCR-Implementierung (aber: [www.fmwconcepts.com/imagemagick](http://www.fmwconcepts.com/imagemagick/))
-    + `Leptonica` [www.leptonica.org](http://www.leptonica.org/)
+    + [`Leptonica`](http://www.leptonica.org/)
         * sehr umfangreiches, frei verfügbares Softwarepaket
         * Anwendung in `Tesseract`
 - zahlreiche **wissenschaftliche Veröffentlichungen** zu einzelnen Aspekten
@@ -653,17 +653,17 @@ count: false
 
 # OCR-Workflow: Werkzeuge *Layoutanalyse*
 
-- einzelner Befehl für Seiten- und Zeilensegmentierung in `OCRopus` 
+- einzelner Befehl für Segmentierung in [`OCRopus`](https://github.com/tmbdev/ocropy) 
     + im Ergebnis nur Einzelbilder auf Zeilenebene
     + **keine Koordinaten**, kein Zugriff auf Seitensegmentierung
-- Zugriff auf alle Ebenen der Seitensegmentierung in `Tesseract`
+- Zugriff auf alle Ebenen der Seitensegmentierung in [`Tesseract`](https://github.com/tesseract-ocr/tesseract)
     + **inklusive Koordinaten**
     + basale Klassifizierung der Segmente (Spalten, Abbildungen, Formeln, Tabellen, Text)
-- Layouterkennungswerkzeug `Larex` (Reul et al. 2017) 
+- Layouterkennungswerkzeug `Larex` 
     + Festlegung buchspezifischer Parameter durch den Nutzer (Spalten, Kolumnentitel etc.)
     + manuelle Nachkorrektur über Benutzeroberfläche
     + kein Training möglich, keine API
-- Generisches Segmentierungswerkzeug `dhSegment` (Oliveira et al. 2018)
+- Generisches Segmentierungswerkzeug `dhSegment`
     + Layoutanalyse per **Pixelklassifizierung**
 
 ---
@@ -761,7 +761,7 @@ count: false
 - viele verfügbare OCR-Engines
 - `ABBYY FineReader` am Verbreitetsten im produktiven Einsatz
 - zwei Platzhirsche im **Open-Source-Bereich**
-- `Tesseract` [github.com/tesseract-ocr/tesseract](https://github.com/tesseract-ocr/tesseract)
+- [`Tesseract`](https://github.com/tesseract-ocr/tesseract)
     + ursprünglich von Hewlett-Packard entwickelt
     + von Google übernommen und Open-Source gestellt
     + viele **mitgelieferte Modelle** (auch für Fraktur)
@@ -771,14 +771,14 @@ count: false
 
 # OCR-Workflow: *Texterkennung*
 
-- `OCRopus` [github.com/tmbdev/ocropy](https://github.com/tmbdev/ocropy)
+- [`OCRopus`](https://github.com/tmbdev/ocropy)
     + entwickelt von Thomas Breul mit Unterstützung von Google
     + ursprünglich als Wrapper für Tesseract, später mit eigener Erkennungsroutine auf Basis neuronaler Netze
     + nur **wenige mitgelieferte Modelle**
     + weitere „Inkarnationen“
-        * `kraken` [kraken.re](http://kraken.re/)
-        * `Calamari` [github.com/Calamari-OCR/calamari](https://github.com/Calamari-OCR/calamari)
-- `Gamera` [github.com/hsnr-gamera/gamera](https://github.com/hsnr-gamera/gamera)
+        * [`kraken`](http://kraken.re/)
+        * [`Calamari`](https://github.com/Calamari-OCR/calamari)
+- [`Gamera`](https://github.com/hsnr-gamera/gamera)
     + komplettes Framework für Layoutanalyse und Texterkennung
     + zeichenorientierter Ansatz auf Basis des „*k* nearest neighbor“-Algorithmus'
     + nur **ein mitgeliefertes Modell*
