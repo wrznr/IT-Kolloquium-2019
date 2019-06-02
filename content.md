@@ -50,7 +50,7 @@ count: false
   + Wozu benutzt man OCR?
   + Warum überhaupt OCR?
 - Technische Aspekte
-  + Komponenten eines einfachen OCR-Workflows
+  + Komponenten einfacher OCR-Workflows
   + Modelltraining
   + Optimierungsoptionen
   + Komplexere OCR-Workflows
@@ -273,7 +273,7 @@ count: false
 class: part-slide
 count: false
 
-# Komponenten eines einfachen OCR-Workflows
+# Komponenten von OCR-Workflows
 
 ---
 
@@ -399,7 +399,7 @@ count: false
 
 ---
 
-# Komponenten eines einfachen OCR-Workflows: Bildvorverarbeitung
+# OCR-Workflow: *Bildvorverarbeitung*
 
 - Prozesse zur bestmöglichen Vorbereitung der Digitalisate für OLR und OCR
   + **Cropping**: Beschneidung des Digitalisats auf den Druckbereich
@@ -412,7 +412,7 @@ count: false
 
 ---
 
-# Komponenten eines einfachen OCR-Workflows: Cropping
+# OCR-Workflow: *Cropping*
 
 .cols[
 .fifty[
@@ -433,7 +433,7 @@ count: false
 
 ---
 
-# Komponenten eines einfachen OCR-Workflows: Deskewing
+# OCR-Workflow: *Deskewing*
 
 .cols[
 .fifty[
@@ -454,7 +454,7 @@ count: false
 
 ---
 
-# Komponenten eines einfachen OCR-Workflows: Binarization
+# OCR-Workflow: *Binarization*
 
 .cols[
 .fifty[
@@ -471,7 +471,7 @@ count: false
 
 ---
 
-# Komponenten eines einfachen OCR-Workflows: Despeckling
+# OCR-Workflow: *Despeckling*
 
 .cols[
 .fifty[
@@ -488,7 +488,7 @@ count: false
 
 ---
 
-# Komponenten eines einfachen OCR-Workflows: Dewarping
+# OCR-Workflow: *Dewarping*
 
 <center>
 <img src="img/dewarping_in_out.svg" />
@@ -496,7 +496,7 @@ count: false
 
 ---
 
-# Komponenten eines einfachen OCR-Workflows: Einfluss Vorverarbeitung
+# OCR-Workflow: Einfluss *Bildvorverarbeitung*
 
 .cols[
 .fifty[
@@ -529,7 +529,7 @@ Der strengen Schuld vndPflicht.
 
 ---
 
-# Komponenten eines einfachen OCR-Workflows: Bildvorverarbeitung
+# OCR-Workflow: Werkzeuge *Bildvorverarbeitung*
 
 - Bestandteil der meisten OCR-Programme, häufig jedoch nicht modular
 - spezielle Tools
@@ -544,7 +544,7 @@ Der strengen Schuld vndPflicht.
 
 ---
 
-# Komponenten eines einfachen OCR-Workflows: Bildvorverarbeitung
+# OCR-Workflow: Werkzeuge *Bildvorverarbeitung*
 
 - teilweise auch in Bildbearbeitungsbibliotheken integriert
     + `ImageMagick` [www.imagemagick.org](https://www.imagemagick.org/)
@@ -556,3 +556,82 @@ Der strengen Schuld vndPflicht.
 - zahlreiche **wissenschaftliche Veröffentlichungen** zu einzelnen Aspekten
 - **wissenschaftliche Wettbewerb**} zu ausgewählten Aspekten (insb. Binarization und Deskewing)
 - Forschungsergebnisse finden **kaum Eingang in die Praxis**
+
+---
+
+# OCR-Workflow: *Layoutanalyse*
+
+- Prozesse zur Erkennung der Struktur auf Seiten- und Dokumentebene
+    + **Seitensegmentierung**: Lokalisierung zusammenhängender Text- und Nichttextbereiche
+    + **Segmentklassifizierung**: Typisierung von Textbereichen
+    + **Zeilen- bzw. Zeichentrennung**: Lokalisierung einzelner Zeilen/Zeichen
+    + **Dokumentenanalyse**: Konstruktion der logischen Dokumentstruktur (METS!)
+- entscheidend für die korrekte **Rekonstruktion des Textflusses** (und damit für maschinelle Auswertungen)
+
+---
+
+#  OCR-Workflow: *Layoutanalyse*
+
+.cols[
+.fifty[
+- **strukturierende** Elemente
+    + Absätze
+    + Überschriften
+]
+.fourty[
+<p style="margin-top:-80px">
+<img src="img/grenzboten_raw.svg" />
+</p>
+]
+]
+
+---
+
+count: false
+
+#  OCR-Workflow: *Layoutanalyse*
+
+.cols[
+.fifty[
+- **strukturierende** Elemente
+    + Absätze
+    + Überschriften
+- **textflussunterbrechende** Elemente
+    + Seitenzahlen
+    + Kolumnentitel
+    + Abbildungsunterschriften
+    + Marginalien etc.
+]
+.fourty[
+<p style="margin-top:-80px">
+<img src="img/grenzboten_raw.svg" />
+</p>
+]
+]
+
+---
+
+count: false
+
+#  OCR-Workflow: *Layoutanalyse*
+
+.cols[
+.fifty[
+- **strukturierende** Elemente
+    + Absätze
+    + Überschriften
+- **textflussunterbrechende** Elemente
+    + Seitenzahlen
+    + Kolumnentitel
+    + Abbildungsunterschriften
+    + Marginalien etc.
+- **nichttextuelle** Elemente
+    + Abbildungen
+    + Tabellen etc.
+]
+.fourty[
+<p style="margin-top:-80px">
+<img src="img/grenzboten_raw.svg" />
+</p>
+]
+]
