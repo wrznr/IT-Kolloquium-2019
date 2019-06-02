@@ -818,7 +818,7 @@ count: false
 ]
 .fourty[
 <p>
-<img src="img/gt.svg" />
+<img src="img/gt.svg" width="200px"/>
 </p>
 ]
 ]
@@ -828,11 +828,12 @@ count: false
 # Modelltraining: Trainingseffekte
 
 <center>
-<img src="img/train.svg" width="300px"/>
+<img src="img/train.svg" width="400px"/>
 </center>
 
 .cols[
 .fifty[
+`ABBYY FineReader 11`
 <p style="font-size:1.4rem">
         ES kostet Om kein zeitlich Gut<br /> 
         Dns wieder zu erwerben/<br />
@@ -843,6 +844,7 @@ count: false
 </p>
 ]
 .fifty[
+`OCRopus`
 <p style="font-size:1.4rem">
         Es kostet jzm kein zattlchGut<br />
         Bns wteder zu crwerben?<br />
