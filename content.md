@@ -818,7 +818,7 @@ count: false
 ]
 .fourty[
 <p>
-<img src="img/gt.svg" width="200px"/>
+<img src="img/gt.svg" width="300px"/>
 </p>
 ]
 ]
