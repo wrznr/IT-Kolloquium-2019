@@ -890,3 +890,60 @@ count: false
 </p>
 ]
 ]
+
+---
+
+# Modelltraining: Werkzeuge
+
+- jede OCR-Software kommt mit **eigener Trainingsprozedur**
+- zahlreiche „ease-of-use“-Wrapper
+    + `Tesseract`: **VietOCR**, **Aletheia**
+    + `OCRopus`: **OCRocis**, (eigene) HTML-Oberfläche
+- Probleme
+    + (teilweise) kostenpflichtig, ungepflegt, umständlich
+    + **keine Abstraktion** über Engines hinweg
+- [`okralact`](https://github.com/Doreenruirui/okralact)
+    + Metatrainingsinfrastruktur für `Tesseract` und 🐙
+    + entwickelt im OCR-D-Kontext
+
+---
+
+class: part-slide
+count: false
+
+# Optimierungsoptionen
+
+---
+
+# Optimierungsoptionen: *Lokale Bildoptimierung*
+
+- historische Vorlagen bzw. ältere Digitalisate oftmals suboptimal für OCR
+    + unterschiedliche **Beleuchtung**
+    + charakteristische **Trapezform**
+- verschiedene Bearbeitungsebenen
+    + Dokument, Seite, Absatz (bzw. Textzone), Zeile
+    + Operationen greifen **wiederholt** auf verschiedenen Ebenen ein
+    + **maximale Adaptivität** bzgl. spezifischer Charakteristika auf Bild- und Textebene
+    + Rekonstruierbarkeit über Koordinaten zu gewährleisten
+
+---
+
+# Optimierungsoptionen: *Lokale Bildoptimierung*
+
+.cols[
+.fifty[
+- **Rezept**
+    + **Bildvorverarbeitung** auf Seitenebene
+    + **Seitensegmentierung** auf Seitenebene
+    + **Extraktion** der Segmente aus dem (nichtoptimierten) Original
+    + **Bildvorverarbeitung** auf Segmentebene
+    + **Zeilensegmentierung** auf Segmentebene
+    + **Extraktion** der Zeile aus dem (nichtoptimierten) Original
+    + **Bildvorverarbeitung** auf Zeilenebene
+]
+.fourty[
+<center>
+<img src="img/deskewing_ex2.svg" width="250px"/>
+</center>
+]
+]
