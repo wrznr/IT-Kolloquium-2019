@@ -631,7 +631,7 @@ count: false
 ]
 .fourty[
 <p style="margin-top:-180px">
-<img src="img/layout_rec.svg" height="90%" />
+<img src="img/layout_rec.svg" height="80%" />
 </p>
 ]
 ]
