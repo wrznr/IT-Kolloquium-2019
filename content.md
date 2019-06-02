@@ -781,7 +781,7 @@ count: false
 - [`Gamera`](https://github.com/hsnr-gamera/gamera)
     + komplettes Framework für Layoutanalyse und Texterkennung
     + zeichenorientierter Ansatz auf Basis des „*k* nearest neighbor“-Algorithmus'
-    + nur **ein mitgeliefertes Modell*
+    + nur **ein mitgeliefertes Modell**
 
 ---
 
@@ -789,3 +789,64 @@ class: part-slide
 count: false
 
 # Modelltraining
+
+---
+
+# Modelltraining
+
+- Texterkennung auf Basis **statistischer** Modelle
+    + Induktion einer Wahrscheinlichkeitsverteilung anhand manuell erstellter Trainingsdaten (**Ground Truth**)
+- unterschiedliche Ansätze erfordern unterschiedliche **Trainingsprozeduren**
+- grundsätzliches Vorgehen jedoch gleich: **Alignierung** von Text und Bild
+    + unterschiedliche Anforderung an **Annotationstiefe**
+    + Qualität und Quantität der Trainingsdaten bestimmt Qualität der Modelle
+- Kompromiss zwischen **Übertragbarkeit** und spezifischer Textqualität
+    + mitgelieferte Modelle häufig zu *allgemein*
+    + Qualität der Texterkennung im Vergleich zu Standardmodellen **signifikant höher** (Springmann et al. 2015)
+
+---
+
+# Modelltraining: Trainingsdaten
+
+.cols[
+.fifty[
+- Digitalisate und zugehöriger, **fehlerfreier** Volltext
+- Alignierung auf Zeichen- oder Zeilenebene
+    + **zeichenorientierte** Ansätze: jedes Zeichen mindestens einmal im Trainingsmaterial
+    + **zeilenorientierte** Ansätze: ca. 10 Seiten eines Buches
+- **Tesseracts** „Latin model“ (i.e. großmaßstäbliches Mehrsprachenmodell für Antiquaschriftarten): ca. 400000 Zeilen in ca. 4500 Schriftarten
+]
+.fourty[
+]
+]
+
+---
+
+# Modelltraining: Trainingseffekte
+
+<center>
+<img src="img/train.svg" />
+</center>
+
+.cols[
+.fifty[
+<p style="font-size:1.4rem">
+        ES kostet Om kein zeitlich Gut<br /> 
+        Dns wieder zu erwerben/<br />
+        ES that es nicht der OpfferBluk/<br />
+        Cr muste selber sterben<br />
+        Vnd emenTod zwar/ welcher gar<br />
+        EinFluch vnd Grcwcl war.
+</p>
+]
+.fifty[
+<p style="font-size:1.4rem">
+        Es kostet jzm kein zattlchGut<br />
+        Bns wteder zu crwerben?<br />
+        Es that cs mcht der OpfferBlut?<br /> 
+        Ermustcselbcr stcrbcn<br />
+        Bnd emnenTodzwar, welchae gar<br />
+        EtFluchvnd Grcwewar.
+</p>
+]
+]
