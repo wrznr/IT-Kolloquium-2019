@@ -533,11 +533,26 @@ Der strengen Schuld vndPflicht.
 
 - Bestandteil der meisten OCR-Programme, häufig jedoch nicht modular
 - spezielle Tools
-    + `Scantailor` <a href="https://github.com/scantailor/scantailor">https://github.com/scantailor/scantailor</a>
+    + `Scantailor` [github.com/scantailor/scantailor](https://github.com/scantailor/scantailor)
         * umfassendes, frei verfügbares Werkzeug
         * keine Programmierschnittstelle (API), keine Weiterentwicklung
-    + `Olena/SCRIBO` <a href="https://www.lrde.epita.fr/wiki/Olena/Modules#SCRIBO">https://www.lrde.epita.fr/wiki/Olena/Modules#SCRIBO</a>
+    + `Olena/SCRIBO` [www.lrde.epita.fr/wiki/Olena/Modules#SCRIBO](https://www.lrde.epita.fr/wiki/Olena/Modules#SCRIBO)
         * frei verfügbare Programmierbibliothek für Deskewing, Binarisierung
         * keine Weiterentwicklung/Pflege, schlechtes API-Design
-    + `Unpaper` <a href="https://github.com/Flameeyes/unpaper">https://github.com/Flameeyes/unpaper</a>
+    + `Unpaper` [github.com/Flameeyes/unpaper](https://github.com/Flameeyes/unpaper)
         * frei verfügbare Programmierbibliothek für Deskewing und Despeckling
+
+---
+
+# Komponenten eines einfachen OCR-Workflows: Bildvorverarbeitung
+
+- teilweise auch in Bildbearbeitungsbibliotheken integriert
+    + `ImageMagick` [www.imagemagick.org](https://www.imagemagick.org/)
+        * extrem umfangreiches, frei verfügbares Softwarepaket
+        * keine spezifische OCR-Implementierung (aber: [www.fmwconcepts.com/imagemagick](http://www.fmwconcepts.com/imagemagick/))
+    + `Leptonica` [www.leptonica.org](http://www.leptonica.org/)
+        * sehr umfangreiches, frei verfügbares Softwarepaket
+        * Anwendung in `Tesseract`
+- zahlreiche **wissenschaftliche Veröffentlichungen** zu einzelnen Aspekten
+- **wissenschaftliche Wettbewerb**} zu ausgewählten Aspekten (insb. Binarization und Deskewing)
+- Forschungsergebnisse finden **kaum Eingang in die Praxis**
