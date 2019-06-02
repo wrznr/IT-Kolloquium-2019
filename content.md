@@ -931,7 +931,7 @@ count: false
 # Optimierungsoptionen: *Lokale Bildoptimierung*
 
 .cols[
-.fifty[
+.sixty[
 - **Rezept**
     + **Bildvorverarbeitung** auf Seitenebene
     + **Seitensegmentierung** auf Seitenebene
@@ -943,7 +943,7 @@ count: false
 ]
 .fourty[
 <center>
-<img src="img/deskewing_ex2.svg" width="250px"/>
+<img src="img/deskewing_ex2.svg" width="280px"/>
 </center>
 ]
 ]
