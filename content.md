@@ -630,8 +630,8 @@ count: false
     + Tabellen etc.
 ]
 .fourty[
-<p style="margin-top:-180px">
-<img src="img/layout_rec.svg" height="80%" />
+<p>
+<img src="img/layout_rec.svg" />
 </p>
 ]
 ]
