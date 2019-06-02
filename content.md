@@ -417,7 +417,7 @@ count: false
 .cols[
 .fifty[
 <center>
-<p style="margin-top:-35px">
+<p style="margin-top:-15px">
 <img src="img/cropping_in.svg" height="500px" />
 </p>
 </center>
@@ -438,7 +438,7 @@ count: false
 .cols[
 .fifty[
 <center>
-<p style="margin-top:-35px">
+<p style="margin-top:-15px">
 <img src="img/deskewing_in.svg" height="500px" />
 </p>
 </center>
@@ -579,7 +579,7 @@ Der strengen Schuld vndPflicht.
     + Überschriften
 ]
 .fourty[
-<p style="margin-top:-60px">
+<p style="margin-top:-40px">
 <img src="img/layout_rec.svg" />
 </p>
 ]
@@ -603,7 +603,7 @@ count: false
     + Marginalien etc.
 ]
 .fourty[
-<p style="margin-top:-60px">
+<p style="margin-top:-40px">
 <img src="img/layout_rec.svg" />
 </p>
 ]
@@ -630,7 +630,7 @@ count: false
     + Tabellen etc.
 ]
 .fourty[
-<p style="margin-top:-60px">
+<p style="margin-top:-40px">
 <img src="img/layout_rec.svg" />
 </p>
 ]
@@ -644,3 +644,5 @@ count: false
 - OCR-Programme implementieren einfache Lösungen zur Seitensegmentierung, teilweise separat adressierbar
     + Klassifizierung beschränkt sich im Wesentlichen auf Text vs. Nichttext
     + Qualität auf schwierigen Vorlagen überschaubar
+- wissenschaftliche Wettbewerbe und Untersuchungen befassen sich mit der Erkennung **komplexer Layouts** und **Dokumentstukturierung**
+    + 
