@@ -817,6 +817,9 @@ count: false
 - **Tesseracts** „Latin model“ (i.e. großmaßstäbliches Mehrsprachenmodell für Antiquaschriftarten): ca. 400000 Zeilen in ca. 4500 Schriftarten
 ]
 .fourty[
+<p style="margin-top:-20px">
+<img src="img/gt.svg" />
+</p>
 ]
 ]
 
