@@ -802,7 +802,7 @@ count: false
     + Qualität und Quantität der Trainingsdaten bestimmt Qualität der Modelle
 - Kompromiss zwischen **Übertragbarkeit** und spezifischer Textqualität
     + mitgelieferte Modelle häufig zu *allgemein*
-    + Qualität der Texterkennung im Vergleich zu Standardmodellen **signifikant höher** (Springmann et al. 2015)
+    + Qualität spezifischer Modelle **signifikant höher**
 
 ---
 
@@ -814,10 +814,10 @@ count: false
 - Alignierung auf Zeichen- oder Zeilenebene
     + **zeichenorientierte** Ansätze: jedes Zeichen mindestens einmal im Trainingsmaterial
     + **zeilenorientierte** Ansätze: ca. 10 Seiten eines Buches
-- **Tesseracts** „Latin model“ (i.e. großmaßstäbliches Mehrsprachenmodell für Antiquaschriftarten): ca. 400000 Zeilen in ca. 4500 Schriftarten
+    + **Tesseracts** „Latin model“ (i.e. großmaßstäbliches Mehrsprachenmodell für Antiquaschriftarten): ca. 400000 Zeilen in ca. 4500 Schriftarten
 ]
 .fourty[
-<p style="margin-top:-20px">
+<p>
 <img src="img/gt.svg" />
 </p>
 ]
@@ -828,7 +828,7 @@ count: false
 # Modelltraining: Trainingseffekte
 
 <center>
-<img src="img/train.svg" />
+<img src="img/train.svg" width="300px"/>
 </center>
 
 .cols[
