@@ -1103,12 +1103,18 @@ count: false
 
 - **manuell**
     + manuelle Transkription/Korrektur des OCR-Ergebnisses, erfordert umfassende Konzeption und (anfängliche) Betreuung, bietet Ansatz für Gamification
-    + diverse proprietäre und Open-Source-Lösungen, **plattformgebunden**, z.B. [DTAQ](http://www.deutschestextarchiv.de/dtaq/about)
+    + diverse proprietäre und Open-Source-Lösungen, **plattformgebunden**, z.B. [DTAQ](http://www.deutschestextarchiv.de/dtaq/about), [Wikisource](https://de.wikisource.org/wiki/Hauptseite)
 - **programmunterstützt**
     + Unterstützung der manuellen Korrektur durch **Korrekturvorschläge** und Hervorhebung wahrscheinlich fehlerhafter Texterkennungsergebnisse
     + [**Po**st **Co**rrection **To**ol]({https://github.com/cisocrgroup/PoCoTo})
 - **automatisch**
     + Korrektur auf Basis von (lexikalischen) Ground-Truth-Daten
+
+---
+
+# Optimierungsoptionen: Werkzeuge *Nachkorrektur*
+
+- **automatisch**
     + **Rechtschreibkorrekturprogramme** wie [`hunspell`](http://hunspell.github.io/)
     + projektspezifische (Insel)-Lösungen wie der sog. **Bremer Ansatz** für die Zeitschrift „Die Grenzboten“ (Nölte et al. 2016)
     + …
@@ -1132,10 +1138,10 @@ count: false
     + alle mitgelieferten `Tesseract`-Modelle auf diese Weise entstanden!
 - viele Projekte zur Erstellung **historischer Fonts** im TTF/OTF-Format für (praktisch) alle alphabetischen Schriftsysteme
 <center>
-<img src="img/font_rend1.svg" width="300px"/>
+<img src="img/font_rend1.svg" width="500px"/>
 </center>
 <center>
-<img src="img/font_rend2.svg" width="300px"/>
+<img src="img/font_rend2.svg" width="500px"/>
 </center>
 
 ---
@@ -1165,3 +1171,66 @@ count: false
 <center>
 <img src="img/workflow.svg"/>
 </center>
+
+---
+
+# OCR-D: Überblick
+
+- **DFG-Initiative** zur Verbesserung von OCR-Methoden für historische Drucke insbesondere
+  für die Volltextdigitalisierung aller in den *Verzeichnissen der im deutschen
+  Sprachraum erschienen Drucke* (VD16, VD17, VD18) nachgewiesenen Exemplare
+- **Koordinierungsprojekt**
+    + Partner
+        * Herzog-August Bibliothek Wolfenbüttel
+        * Berlin-Brandenburgische Akademie der Wissenschaften
+        * Staatsbibliothek Berlin
+        * Karlsruher Institut für Technologie
+    + Implementierung **Workflowmanagmentsystem**
+    + Bereitstellung von **Ground-Truth-Daten**
+    + Ende 2015 bis Mitte 2020
+
+---
+
+# OCR-D: Überblick
+
+- **Modulprojekte**
+    + Bearbeitung inhaltlicher Desiderate für einen optimierten OCR-Workflow
+    + Bildvorberarbeitung (DFKI Kaiserslautern)
+    + Layoutanalyse (DFKI Kaiserslautern, JMU Würzburg)
+    + Texterkennung/-optimierung (UB Mannheim, Uni Leipzig, LMU München)
+    + Modelltraining (Uni Leipzig, FAU Erlangen, JGU Mainz)
+    + Langzeitarchivierung (UB Göttingen)
+    + (Qualitätssicherung)
+- **Pilotbibliotheken**
+    + Projektpartner
+    + SLUB Dresden
+    + UB Rostock
+    + ULB Darmstadt
+
+---
+
+# OCR-D: Prämissen
+
+- **Lückenschluss** zwischen Forschung und Praxis
+    + Transfer der Forschungsergebnisse
+    + zugängliche und nachnutzbare Implementierungen
+- **Methodenpluralismus**
+    + insbesondere bei schwierigen Vorlagen: **kein** bester Algorithmus
+    + Implementierung möglichst **vieler Ansätze** samt **Auswahlmechanismus**
+- konsequent **OpenSource**
+    + Veröffentlichung des Quellcodes **und**
+    + Anschluss an vorhandene Communities
+
+---
+
+# Open-Source-Paradigma
+
+- öffentlich geförderte Projekte ↦ öffentlich verfügbare Projektergebnisse
+- „Kulturrevolution“: **Reproducible Science**
+    + Daten (Texte etc.) veröffentlicht unter CC
+    + Methoden veröffentlicht als quelloffene Software
+    + wissenschaftliche Dokumentation veröffentlicht als *Open Access*
+- „Belohnung“ durch wissenschaftliche Qualifikation und Zitierungen
+- Ziel: Einbindung der Nutzercommunity von **Anfang an**
+    + Fehlermeldung und Funktionalitätsfeedback während der Entwicklung
+    + Weiterentwicklung und Pflege auch nach Ablauf der Förderung
