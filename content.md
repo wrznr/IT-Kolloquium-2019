@@ -580,7 +580,7 @@ Der strengen Schuld vndPflicht.
 ]
 .fourty[
 <p style="margin-top:-20px">
-<img src="img/layout_rec.svg" height="90%" />
+<img src="img/layout_rec.svg" />
 </p>
 ]
 ]
@@ -604,7 +604,7 @@ count: false
 ]
 .fourty[
 <p style="margin-top:-20px">
-<img src="img/layout_rec.svg" height="90%" />
+<img src="img/layout_rec.svg" />
 </p>
 ]
 ]
@@ -630,7 +630,7 @@ count: false
     + Tabellen etc.
 ]
 .fourty[
-<p>
+<p style="margin-top:-20px">
 <img src="img/layout_rec.svg" />
 </p>
 ]
