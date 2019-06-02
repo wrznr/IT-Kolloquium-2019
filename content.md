@@ -855,3 +855,38 @@ count: false
 </p>
 ]
 ]
+
+---
+
+count: false
+
+# Modelltraining: Trainingseffekte
+
+<center>
+<img src="img/train.svg" width="400px"/>
+</center>
+
+.cols[
+.fifty[
+`ABBYY FineReader 11`
+<p style="font-size:1.4rem">
+        ES kostet Om kein zeitlich Gut<br /> 
+        Dns wieder zu erwerben/<br />
+        ES that es nicht der OpfferBluk/<br />
+        Cr muste selber sterben<br />
+        Vnd emenTod zwar/ welcher gar<br />
+        EinFluch vnd Grcwcl war.
+</p>
+]
+.fifty[
+`OCRopus` (homebrew)
+<p style="font-size:1.4rem">
+        Es koſ<span style="color:red">l</span>et jhm kein zeitlich Gut<br />
+        Vns wieder zu <span style="color:red">t</span>erwerben/<br />
+        Es that es nicht der Opffer Blut/<br /> 
+        Er muſte ſelber ſterben<br />
+        Vnd einen Tod zwar/ welcher gar<br />
+        Ein Fluch vnd Grewel war.
+</p>
+]
+]
