@@ -943,7 +943,137 @@ count: false
 ]
 .fourty[
 <center>
-<img src="img/deskewing_ex2.svg" width="280px"/>
+<img src="img/deskewing_ex2.svg" width="300px"/>
 </center>
+]
+]
+
+---
+
+# Optimierungsoptionen: *Textvereinigung*
+
+- Prozesse zur **Vereinigung** verschiedener OCR-Ergebnisse **in einen Volltext**
+    + Fehler auch bei „optimaler“ Vorverarbeitung und Verwendung spezifischer Modelle
+    + **unterschiedliche Engines** bzw. Modelle haben **unterschiedliche Stärken** und machen unterschiedliche Fehler
+- Idee: **Extraktion** korrekt erkannter Textbestandteile **aus mehreren OCR-Durchgängen** (Handley 1998)
+- **große Wortlisten** als Referenzmaterial
+- Integration vorhandener OCR ebenfalls möglich!
+- **Reduktion** der Anzahl der falsch erkannten Zeichen um 14% erzielt (Boenig et al. 2016)
+
+---
+
+# *Textvereinigung*: Dach „Einfältige Leichreime“ (1653)
+
+.cols[
+.fifty[
+<center>
+<img src="img/train.svg" width="300px"/>
+</center>
+]
+.fifty[
+`ABBYY FineReader 11`
+<p style="font-size:1.4rem">
+        ES kostet Om kein zeitlich Gut<br /> 
+        Dns wieder zu erwerben/<br />
+        ES that es nicht der OpfferBluk/<br />
+        Cr muste selber sterben<br />
+        Vnd emenTod zwar/ welcher gar<br />
+        EinFluch vnd Grcwcl war.
+</p>
+`OCRopus` (homebrew)
+<p style="font-size:1.4rem">
+        Es koſ<span style="color:red">l</span>et jhm kein zeitlich Gut<br />
+        Vns wieder zu <span style="color:red">t</span>erwerben/<br />
+        Es that es nicht der Opffer Blut/<br /> 
+        Er muſte ſelber ſterben<br />
+        Vnd einen Tod zwar/ welcher gar<br />
+        Ein Fluch vnd Grewel war.
+</p>
+]
+]
+
+---
+
+count: false
+
+# *Textvereinigung*: Dach „Einfältige Leichreime“ (1653)
+
+.cols[
+.fifty[
+<center>
+<img src="img/train.svg" width="300px"/>
+</center>
+`Tesseract`
+<p style="font-size:1.4rem">
+        Es koſtet jhm kein zeitlich Gut<br />
+        Vns wieder zu erwerben/<br />
+        Es ihaietz?i1ichi der Opffer Blui/<br />
+        Er muſte ſelber ſterben<br />
+        Vnd einenTod zwar / welcher gar<br />
+        EinFliich'vud Grewel war.
+</p>
+]
+.fifty[
+`ABBYY FineReader 11`
+<p style="font-size:1.4rem">
+        ES kostet Om kein zeitlich Gut<br /> 
+        Dns wieder zu erwerben/<br />
+        ES that es nicht der OpfferBluk/<br />
+        Cr muste selber sterben<br />
+        Vnd emenTod zwar/ welcher gar<br />
+        EinFluch vnd Grcwcl war.
+</p>
+`OCRopus` (homebrew)
+<p style="font-size:1.4rem">
+        Es koſ<span style="color:red">l</span>et jhm kein zeitlich Gut<br />
+        Vns wieder zu <span style="color:red">t</span>erwerben/<br />
+        Es that es nicht der Opffer Blut/<br /> 
+        Er muſte ſelber ſterben<br />
+        Vnd einen Tod zwar/ welcher gar<br />
+        Ein Fluch vnd Grewel war.
+</p>
+]
+]
+
+---
+
+count: false
+
+# *Textvereinigung*: Dach „Einfältige Leichreime“ (1653)
+
+.cols[
+.fifty[
+<center>
+<img src="img/train.svg" width="300px"/>
+</center>
+`Tesseract`
+<p style="font-size:1.4rem">
+        Es koſtet jhm kein zeitlich Gut<br />
+        Vns wieder zu erwerben/<br />
+        Es ihaietz?i1ichi der Opffer Blui/<br />
+        Er muſte ſelber ſterben<br />
+        Vnd einenTod zwar / welcher gar<br />
+        EinFliich'vud Grewel war.
+</p>
+]
+.fifty[
+vereinigt
+<p style="font-size:1.4rem">
+        Es koſtet jhm kein zeitlich Gut<br />
+        Vns wieder zu erwerben/<br />
+        Es that es nicht der Opffer Blut/<br /> 
+        Er muſte ſelber ſterben<br />
+        Vnd einen Tod zwar/ welcher gar<br />
+        Ein Fluch vnd Grewel war.
+</p>
+`OCRopus` (homebrew)
+<p style="font-size:1.4rem">
+        Es koſ<span style="color:red">l</span>et jhm kein zeitlich Gut<br />
+        Vns wieder zu <span style="color:red">t</span>erwerben/<br />
+        Es that es nicht der Opffer Blut/<br /> 
+        Er muſte ſelber ſterben<br />
+        Vnd einen Tod zwar/ welcher gar<br />
+        Ein Fluch vnd Grewel war.
+</p>
 ]
 ]
