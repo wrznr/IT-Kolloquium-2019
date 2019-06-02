@@ -424,7 +424,7 @@ count: false
 ]
 .fifty[
 <center>
-<p style="margin-top:-35px">
+<p style="margin-top:-15px">
 <img src="img/cropping_out.svg" height="500px" />
 </p>
 </center>
@@ -445,7 +445,7 @@ count: false
 ]
 .fifty[
 <center>
-<p style="margin-top:-35px">
+<p style="margin-top:-15px">
 <img src="img/deskewing_out.svg" height="500px" />
 </p>
 </center>
@@ -561,7 +561,7 @@ Der strengen Schuld vndPflicht.
 
 # OCR-Workflow: *Layoutanalyse*
 
-- Prozesse zur Erkennung der Struktur auf Seiten- und Dokumentebene
+- Prozesse zur Erkennung der Struktur auf Seiten- und Dokumentebene (*Optical Layout Recognition*, **OLR**)
     + **Seitensegmentierung**: Lokalisierung zusammenhängender Text- und Nichttextbereiche
     + **Segmentklassifizierung**: Typisierung von Textbereichen
     + **Zeilen- bzw. Zeichentrennung**: Lokalisierung einzelner Zeilen/Zeichen
@@ -579,8 +579,8 @@ Der strengen Schuld vndPflicht.
     + Überschriften
 ]
 .fourty[
-<p style="margin-top:-80px">
-<img src="img/grenzboten_raw.svg" />
+<p style="margin-top:-60px">
+<img src="img/layout_rec.svg" />
 </p>
 ]
 ]
@@ -603,8 +603,8 @@ count: false
     + Marginalien etc.
 ]
 .fourty[
-<p style="margin-top:-80px">
-<img src="img/grenzboten_raw.svg" />
+<p style="margin-top:-60px">
+<img src="img/layout_rec.svg" />
 </p>
 ]
 ]
@@ -630,8 +630,17 @@ count: false
     + Tabellen etc.
 ]
 .fourty[
-<p style="margin-top:-80px">
-<img src="img/grenzboten_raw.svg" />
+<p style="margin-top:-60px">
+<img src="img/layout_rec.svg" />
 </p>
 ]
 ]
+
+---
+
+# OCR-Workflow: Werkzeuge *Layoutanalyse*
+
+- auch bei OLR **Missverhältnis** zwischen Forschungsergebnissen und verfügbaren Lösungen
+- OCR-Programme implementieren einfache Lösungen zur Seitensegmentierung, teilweise separat adressierbar
+    + Klassifizierung beschränkt sich im Wesentlichen auf Text vs. Nichttext
+    + Qualität auf schwierigen Vorlagen überschaubar
