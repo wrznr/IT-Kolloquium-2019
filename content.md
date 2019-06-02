@@ -645,4 +645,147 @@ count: false
     + Klassifizierung beschränkt sich im Wesentlichen auf Text vs. Nichttext
     + Qualität auf schwierigen Vorlagen überschaubar
 - wissenschaftliche Wettbewerbe und Untersuchungen befassen sich mit der Erkennung **komplexer Layouts** und **Dokumentstukturierung**
-    + 
+    + elaborierte statistische Modelle (vs. Heuristiken)
+    + neuronale Netze
+    + **polygone** Segmente
+
+---
+
+# OCR-Workflow: Werkzeuge *Layoutanalyse*
+
+- einzelner Befehl für Seiten- und Zeilensegmentierung in `OCRopus` 
+    + im Ergebnis nur Einzelbilder auf Zeilenebene
+    + **keine Koordinaten**, kein Zugriff auf Seitensegmentierung
+- Zugriff auf alle Ebenen der Seitensegmentierung in `Tesseract`
+    + **inklusive Koordinaten**
+    + basale Klassifizierung der Segmente (Spalten, Abbildungen, Formeln, Tabellen, Text)
+- Layouterkennungswerkzeug `Larex` (Reul et al. 2017) 
+    + Festlegung buchspezifischer Parameter durch den Nutzer (Spalten, Kolumnentitel etc.)
+    + manuelle Nachkorrektur über Benutzeroberfläche
+    + kein Training möglich, keine API
+- Generisches Segmentierungswerkzeug `dhSegment` (Oliveira et al. 2018)
+    + Layoutanalyse per **Pixelklassifizierung**
+
+---
+
+# OCR-Workflow: *Layoutanalyse* per Pixelklassifizierung
+
+.cols[
+.fifty[
+- Training auf manuell strukturierten Seiten
+- jedes Pixel gehört in ein Segment
+    + Illustration durch Farbe pro Segmenttyp
+]
+.fourty[
+]
+]
+
+---
+
+count: false
+
+# OCR-Workflow: *Layoutanalyse* per Pixelklassifizierung
+
+.cols[
+.fifty[
+- Training auf manuell strukturierten Seiten
+- jedes Pixel gehört in ein Segment
+    + Illustration durch Farbe pro Segmenttyp
+    + beliebig komplexe Schemata möglich
+        * Text vs. Nichttext
+]
+.fourty[
+]
+]
+
+---
+
+count: false
+
+# OCR-Workflow: *Layoutanalyse* per Pixelklassifizierung
+
+.cols[
+.fifty[
+- Training auf manuell strukturierten Seiten
+- jedes Pixel gehört in ein Segment
+  + Illustration durch Farbe pro Segmenttyp
+  + beliebig komplexe Schemata möglich
+      * Text vs. Nichttext
+]
+.fourty[
+]
+]
+
+---
+
+count: false
+
+# OCR-Workflow: *Layoutanalyse* per Pixelklassifizierung
+
+.cols[
+.fifty[
+- Training auf manuell strukturierten Seiten
+- jedes Pixel gehört in ein Segment
+  + Illustration durch Farbe pro Segmenttyp
+  + beliebig komplexe Schemata möglich
+      * Text vs. Nichttext
+      * Hintergrund vs. Vordergrund
+]
+.fourty[
+]
+]
+
+---
+
+count: false
+
+# OCR-Workflow: *Layoutanalyse* per Pixelklassifizierung
+
+.cols[
+.fifty[
+- Training auf manuell strukturierten Seiten
+- jedes Pixel gehört in ein Segment
+  + Illustration durch Farbe pro Segmenttyp
+  + beliebig komplexe Schemata möglich
+      * Text vs. Nichttext
+      * Hintergrund vs. Vordergrund
+]
+.fourty[
+]
+]
+
+---
+
+# OCR-Workflow: *Texterkennung*
+
+- viele verfügbare OCR-Engines
+- `ABBYY FineReader` am Verbreitetsten im produktiven Einsatz
+- zwei Platzhirsche im **Open-Source-Bereich**
+- `Tesseract` [github.com/tesseract-ocr/tesseract](https://github.com/tesseract-ocr/tesseract)
+    + ursprünglich von Hewlett-Packard entwickelt
+    + von Google übernommen und Open-Source gestellt
+    + viele **mitgelieferte Modelle** (auch für Fraktur)
+    + ab Version 4 Umstieg auf zeilenorientierte Erkennung auf Basis neuronaler Netze
+
+---
+
+# OCR-Workflow: *Texterkennung*
+
+- `OCRopus` [github.com/tmbdev/ocropy](https://github.com/tmbdev/ocropy)
+    + entwickelt von Thomas Breul mit Unterstützung von Google
+    + ursprünglich als Wrapper für Tesseract, später mit eigener Erkennungsroutine auf Basis neuronaler Netze
+    + nur **wenige mitgelieferte Modelle**
+    + weitere „Inkarnationen“
+        * `kraken` [kraken.re](http://kraken.re/)
+        * `Calamari` [github.com/Calamari-OCR/calamari](https://github.com/Calamari-OCR/calamari)
+- `Gamera` [github.com/hsnr-gamera/gamera](https://github.com/hsnr-gamera/gamera)
+    + komplettes Framework für Layoutanalyse und Texterkennung
+    + zeichenorientierter Ansatz auf Basis des „*k* nearest neighbor“-Algorithmus'
+    + nur **ein mitgeliefertes Modell*
+
+---
+
+class: part-slide
+count: false
+
+# Modelltraining
