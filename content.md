@@ -1003,6 +1003,7 @@ count: false
 <center>
 <img src="img/train.svg" width="300px"/>
 </center>
+
 `Tesseract`
 <p style="font-size:1.4rem">
         Es koſtet jhm kein zeitlich Gut<br />
@@ -1023,6 +1024,7 @@ count: false
         Vnd emenTod zwar/ welcher gar<br />
         EinFluch vnd Grcwcl war.
 </p>
+
 `OCRopus` (homebrew)
 <p style="font-size:1.4rem">
         Es koſ<span style="color:red">l</span>et jhm kein zeitlich Gut<br />
@@ -1046,6 +1048,7 @@ count: false
 <center>
 <img src="img/train.svg" width="300px"/>
 </center>
+
 `Tesseract`
 <p style="font-size:1.4rem">
         Es koſtet jhm kein zeitlich Gut<br />
@@ -1057,7 +1060,8 @@ count: false
 </p>
 ]
 .fifty[
-vereinigt
+
+`Merge`
 <p style="font-size:1.4rem">
         Es koſtet jhm kein zeitlich Gut<br />
         Vns wieder zu erwerben/<br />
@@ -1066,6 +1070,7 @@ vereinigt
         Vnd einen Tod zwar/ welcher gar<br />
         Ein Fluch vnd Grewel war.
 </p>
+
 `OCRopus` (homebrew)
 <p style="font-size:1.4rem">
         Es koſ<span style="color:red">l</span>et jhm kein zeitlich Gut<br />
@@ -1077,3 +1082,86 @@ vereinigt
 </p>
 ]
 ]
+
+---
+
+# Optimierungsoptionen: *Nachkorrektur*
+
+- auch unter optimierten Bedingungen verbleiben OCR-Fehler
+- manuelle oder automatische Korrektur des Textes zur Erhöhung der Qualität
+- drei Ansatzmöglichkeiten:
+    + **manuell** (*Collaborative Manual Correction*/*Crowdsourcing*)
+    + **programmunterstützt** (*Interactive Postcorrection*)
+    + **automatisch**
+- „klassische“ Aufgabe der **Computerlinguistik**
+    + Anleihen bei Rechtschreibkorrektur
+    + bzw. Schreibungsnormalisierung (Jurish 2012)
+
+---
+
+# Optimierungsoptionen: Werkzeuge *Nachkorrektur*
+
+- **manuell**
+    + manuelle Transkription/Korrektur des OCR-Ergebnisses, erfordert umfassende Konzeption und (anfängliche) Betreuung, bietet Ansatz für Gamification
+    + diverse proprietäre und Open-Source-Lösungen, **plattformgebunden**, z.B. [DTAQ](http://www.deutschestextarchiv.de/dtaq/about)
+- **programmunterstützt**
+    + Unterstützung der manuellen Korrektur durch **Korrekturvorschläge** und Hervorhebung wahrscheinlich fehlerhafter Texterkennungsergebnisse
+    + [**Po**st **Co**rrection **To**ol]({https://github.com/cisocrgroup/PoCoTo})
+- **automatisch**
+    + Korrektur auf Basis von (lexikalischen) Ground-Truth-Daten
+    + **Rechtschreibkorrekturprogramme** wie [`hunspell`](http://hunspell.github.io/)
+    + projektspezifische (Insel)-Lösungen wie der sog. **Bremer Ansatz** für die Zeitschrift „Die Grenzboten“ (Nölte et al. 2016)
+    + …
+
+---
+
+# Optimierungsoptionen: *Synthetisches Trainingsmaterial*
+
+- Volltexte historischer Drucke zunehmend vorhanden
+    + manuelle Erfassung normalerweise **ohne** Text-Bild-Alignierung
+    + Erstellung von Trainingsmaterial **zeitaufwendig** und teuer
+- Idee: Einsatz von **Font-rendering**-Software um automatisch alignierte Trainingsdaten zu erzeugen
+    + Verwendung historischer Schriftarten (für Fraktur z.B. [www.ligafaktur.de](http://www.ligafaktur.de/Schriften.html))
+    + „künstliche“ Artefakte zur Nachahmung der Druckalterung
+
+---
+
+# Optimierungsoptionen: Werkzeuge *Synthetisches Trainingsmaterial*
+
+- `Tesseract` und 🐙 mit **Generierungsmechanismus** auf Basis von [`FreeType`](https://www.freetype.org/)
+    + alle mitgelieferten `Tesseract`-Modelle auf diese Weise entstanden!
+- viele Projekte zur Erstellung **historischer Fonts** im TTF/OTF-Format für (praktisch) alle alphabetischen Schriftsysteme
+<center>
+<img src="img/font_rend1.svg" width="300px"/>
+</center>
+<center>
+<img src="img/font_rend2.svg" width="300px"/>
+</center>
+
+---
+
+class: part-slide
+count: false
+
+# Komplexere OCR-Workflows
+
+---
+
+# Komplexere OCR-Workflows
+
+- „einfache“ OCR-Workflows in allen OCR-Lösungen implementiert
+- **keine Möglichkeit** zur direkten Integration der diskutierten Optimierungsmöglichkeiten
+- kein modulares **Workflowmanagmentsystem** im Bereich OCR vorhanden
+- momentane Lösung
+    + Zugriff auf **einzelne Module**
+    + Kombination in **spezifischem Workflow**
+    + aka. Skripte und Hacks
+- **OCR-D**
+
+---
+
+# Komplexere OCR-Workflows
+
+<center>
+<img src="img/workflow.svg"/>
+</center>
