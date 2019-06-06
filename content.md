@@ -1005,7 +1005,7 @@ count: false
 ]
 .fifty[
 `ABBYY FineReader 11`
-<p style="font-size:1.4rem">
+<p style="font-size:1.4rem, margin-top:-20px">
         ES kostet Om kein zeitlich Gut<br /> 
         Dns wieder zu erwerben/<br />
         ES that es nicht der OpfferBluk/<br />
@@ -1013,6 +1013,7 @@ count: false
         Vnd emenTod zwar/ welcher gar<br />
         EinFluch vnd Grcwcl war.
 </p>
+
 `OCRopus` (homebrew)
 <p style="font-size:1.4rem">
         Es koſ<span style="color:red">l</span>et jhm kein zeitlich Gut<br />
@@ -1215,17 +1216,19 @@ count: false
 <img src="img/cyrillic.jpg" height="500px" />
 </p>
 ]
-.seventy[
-> Б. Л. Фонкин
-
-> Греческие рукописи собрания Х. Ф. Маттеи
-> в Российском государственном архле древних актов
-
-> Сравнительно недавно в РГАДА был образован фонд
-> Х. Ф. Маттен, куда вошли принадлежавшие этому ученому
-> треческие рукописи 1Х--ХУЛ вв., а также некоторые другие
-> материалы!. Чтобы понять, как спожилось это собрание, необ-
-> ходимо обратиться к истории.
+.eighty[
+<p style="font-size:1.2rem">
+Б. Л. Фонкин<br/ >
+<br/ >
+Греческие рукописи собрания Х. Ф. Маттеи<br/ >
+в Российском государственном архле древних актов<br/ >
+<br/ >
+Сравнительно недавно в РГАДА был образован фонд<br/ >
+Х. Ф. Маттен, куда вошли принадлежавшие этому ученому<br/ >
+треческие рукописи 1Х--ХУЛ вв., а также некоторые другие<br/ >
+материалы!. Чтобы понять, как спожилось это собрание, необ-<br/ >
+ходимо обратиться к истории.
+</p>
 ]
 ]
 
