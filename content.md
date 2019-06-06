@@ -693,7 +693,7 @@ count: false
 ]
 .fourty[
 <p style="margin-top:-30px">
-<img src="img/unzonned.png" height="500px" />
+<img src="img/unzonned.jpg" height="500px" />
 </p>
 ]
 ]
@@ -748,6 +748,9 @@ count: false
     + Illustration durch Farbe pro Segmenttyp
 ]
 .fourty[
+<p style="margin-top:-30px">
+<img src="img/sem_sep.png" height="500px" />
+</p>
 ]
 ]
 
@@ -766,6 +769,9 @@ count: false
         * Text vs. Nichttext
 ]
 .fourty[
+<p style="margin-top:-30px">
+<img src="img/sem_sep.png" height="500px" />
+</p>
 ]
 ]
 
@@ -784,44 +790,9 @@ count: false
       * Text vs. Nichttext
 ]
 .fourty[
-]
-]
-
----
-
-count: false
-
-# OCR-Workflow: *Layoutanalyse* per Pixelklassifizierung
-
-.cols[
-.fifty[
-- Training auf manuell strukturierten Seiten
-- jedes Pixel gehört in ein Segment
-  + Illustration durch Farbe pro Segmenttyp
-  + beliebig komplexe Schemata möglich
-      * Text vs. Nichttext
-      * Hintergrund vs. Vordergrund
-]
-.fourty[
-]
-]
-
----
-
-count: false
-
-# OCR-Workflow: *Layoutanalyse* per Pixelklassifizierung
-
-.cols[
-.fifty[
-- Training auf manuell strukturierten Seiten
-- jedes Pixel gehört in ein Segment
-  + Illustration durch Farbe pro Segmenttyp
-  + beliebig komplexe Schemata möglich
-      * Text vs. Nichttext
-      * Hintergrund vs. Vordergrund
-]
-.fourty[
+<p style="margin-top:-30px">
+<img src="img/text_sep.png" height="500px" />
+</p>
 ]
 ]
 
