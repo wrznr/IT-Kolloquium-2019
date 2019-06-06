@@ -1287,6 +1287,36 @@ im Siidosten von Sachsen und im Xordosten Böhmens,i anf beiden Seiten der Elbe,
 
 ---
 
+count: false
+
+# Anschauungsbeispiele: Textqualität
+
+.cols[
+.fourty[
+<p style="margin-top:-20px; margin-right:-25px">
+<img src="img/gottschalck.jpg" height="500px" />
+</p>
+]
+.seventy[
+<p style="font-size:1.2rem;">
+Einleitung.<br/>
+<br/>
+In Südosten von Sachsen und im Nordosten Böhmens,<br/>
+auf beiden Seiten der Elbe, dehnt sich ein von der Natur<br/>
+wunderlieblich gebildeter, mit Felsen, Thälern, Schluchten<br/>
+und Wasser reichlich und reizend geschmückter Landstrich<br/>
+aus, der früher den Namen des Meissner Hochlands<br/>
+führte, und seit dem Anfange unseres Jahrhunderts die<br/>
+sächsische Schweiz genannt wird. Seit der böhmische<br/>
+Theil bekannter geworden ist und mehr besucht wird, ‘wird<br/>
+das Ganze die sächsisch-böhmische Schweiz ge-<br/>
+nannt.
+</p>
+]
+]
+
+---
+
 # Anschauungsbeispiele: Vorlagequalität
 
 .cols[
