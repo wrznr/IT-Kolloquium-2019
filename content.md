@@ -770,7 +770,7 @@ count: false
 - jedes Pixel gehört in ein Segment
 - jedes Pixel gehört zu einer Klasse
     + Illustration durch Farbe pro Segmenttyp
-- Klassifikation der Pixel anhand ihrer Umgebung (i.e. Farbe im Original)
+- Klassifikation der Pixel anhand ihrer **Umgebung** (i.e. Farbe im Original)
 ]
 .fourty[
 <p style="margin-top:-30px">
@@ -1028,10 +1028,10 @@ count: false
 - Prozesse zur **Vereinigung** verschiedener OCR-Ergebnisse **in einen Volltext**
     + Fehler auch bei „optimaler“ Vorverarbeitung und Verwendung spezifischer Modelle
     + **unterschiedliche Engines** bzw. Modelle haben **unterschiedliche Stärken** und machen unterschiedliche Fehler
-- Idee: **Extraktion** korrekt erkannter Textbestandteile **aus mehreren OCR-Durchgängen** (Handley 1998)
+- Idee: **Extraktion** korrekt erkannter Textbestandteile **aus mehreren OCR-Durchgängen** ([Handley 1998](https://www.researchgate.net/profile/John_Handley/publication/3776858_Improving_OCR_accuracy_through_combination_a_survey/links/0deec51e9c21900ab4000000/Improving-OCR-accuracy-through-combination-a-survey.pdf))
 - **große Wortlisten** als Referenzmaterial
 - Integration vorhandener OCR ebenfalls möglich!
-- **Reduktion** der Anzahl der falsch erkannten Zeichen um 14% erzielt (Boenig et al. 2016)
+- **Reduktion** der Anzahl der falsch erkannten Zeichen um 14% erzielt ([Boenig et al. 2016](http://dhd2016.de/boa.v2.pdf))
 
 ---
 
@@ -1174,7 +1174,7 @@ count: false
     + **automatisch**
 - „klassische“ Aufgabe der **Computerlinguistik**
     + Anleihen bei Rechtschreibkorrektur
-    + bzw. Schreibungsnormalisierung (Jurish 2012)
+    + bzw. Schreibungsnormalisierung ([Jurish 2012](https://nbn-resolving.org/resolver?identifier=urn%3Anbn%3Ade%3Akobv%3A517-opus-55789))
 
 ---
 
@@ -1195,7 +1195,7 @@ count: false
 
 - **automatisch**
     + **Rechtschreibkorrekturprogramme** wie [`hunspell`](http://hunspell.github.io/)
-    + projektspezifische (Insel)-Lösungen wie der sog. **Bremer Ansatz** für die Zeitschrift „Die Grenzboten“ (Nölte et al. 2016)
+    + projektspezifische (Insel)-Lösungen wie der sog. **Bremer Ansatz** für die Zeitschrift „Die Grenzboten“ ([Nölte et al. 2016](https://doi.org/10.5282/o-bib/2016H1S32-55))
     + …
 
 ---
@@ -1253,6 +1253,23 @@ count: false
 
 ---
 
+# Anschauungsbeispiele
+
+- generiert mit Hilfe von `Tesseract` (4.0)
+- gute bis sehr gute **Textqualität** abhängig von
+    + (Qualität der Vorlage)
+    + Alter des Werkes
+    + Standardabweichung
+- schlechte bis sehr gute **Strukturqualität** abhängig von
+    + (Qualität der Vorlage)
+    + Komplexität der Struktur
+
+---
+
+# Anschauungsbeispiele: Textqualität
+
+---
+
 # Anschauungsbeispiele: Vorlagequalität
 
 .cols[
@@ -1291,9 +1308,29 @@ count: false
 
 # Anschauungsbeispiele: Gemischte Schriftarten
 
+<center><img src="img/mixed.png" /></center>
+
 ---
 
 # Anschauungsbeispiele: Strukturqualität
+
+<center><img src="img/structure.png" /></center>
+
+---
+
+count: false
+
+# Anschauungsbeispiele: Strukturqualität
+
+<center><img src="img/structure2.png" /></center>
+
+---
+
+count: false
+
+# Anschauungsbeispiele: Strukturqualität
+
+<center><img src="img/lines2.png" /></center>
 
 ---
 
@@ -1357,3 +1394,23 @@ count: false
 - Ziel: Einbindung der Nutzercommunity von **Anfang an**
     + Fehlermeldung und Funktionalitätsfeedback während der Entwicklung
     + Weiterentwicklung und Pflege auch nach Ablauf der Förderung
+
+---
+
+# Zusammenfassung
+
+- Quantensprung im Bereich OCR durch Einsatz neuronaler Netze
+- Problem der Texterkennung „gelöst“
+- Strukturerkennung auf gutem Weg
+- Herausforderungen bei der **Produktivierung** der einzelnen Werkzeuge
+    + Nachhaltigkeit der Softwarelösungen
+    + Trainingsdaten und Modelle
+    + Erfahrungswerte und systematische Evaluation
+
+---
+
+class: part-slide
+
+# Vielen Dank für Ihre Aufmerksamkeit
+
+[wrznr.github.io/IT-Kolloquium-2019](https://wrznr.github.io/IT-Kolloquium-2019/)
