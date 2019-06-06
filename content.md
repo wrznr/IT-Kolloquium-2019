@@ -672,11 +672,45 @@ count: false
 
 .cols[
 .fifty[
+]
+.fourty[
+<p style="margin-top:-30px">
+<img src="img/unzonned.jpg" height="500px" />
+</p>
+]
+]
+
+---
+
+count: false
+
+# OCR-Workflow: *Layoutanalyse* per Pixelklassifizierung
+
+.cols[
+.fifty[
 - Training auf manuell strukturierten Seiten
 - jedes Pixel gehört in ein Segment
 ]
 .fourty[
-<p style="margin-top:-20px">
+<p style="margin-top:-30px">
+<img src="img/unzonned.png" height="500px" />
+</p>
+]
+]
+
+---
+
+count: false
+
+# OCR-Workflow: *Layoutanalyse* per Pixelklassifizierung
+
+.cols[
+.fifty[
+- Training auf manuell strukturierten Seiten
+- jedes Pixel gehört in ein Segment
+]
+.fourty[
+<p style="margin-top:-30px">
 <img src="img/zonned.png" height="500px" />
 </p>
 ]
@@ -695,6 +729,9 @@ count: false
     + Illustration durch Farbe pro Segmenttyp
 ]
 .fourty[
+<p style="margin-top:-30px">
+<img src="img/zonned.png" height="500px" />
+</p>
 ]
 ]
 
@@ -1017,8 +1054,8 @@ count: false
         Vnd emenTod zwar/ welcher gar<br />
         EinFluch vnd Grcwcl war.
 </p>
-
-<code>OCRopus<code>
+<br/>
+<code>OCRopus</code>
 <p style="font-size:1.4rem">
         Es koſ<span style="color:red">l</span>et jhm kein zeitlich Gut<br />
         Vns wieder zu <span style="color:red">t</span>erwerben/<br />
@@ -1064,8 +1101,8 @@ count: false
         Vnd emenTod zwar/ welcher gar<br />
         EinFluch vnd Grcwcl war.
 </p>
-
-<code>OCRopus<code>
+<br/>
+<code>OCRopus</code>
 <p style="font-size:1.4rem">
         Es koſ<span style="color:red">l</span>et jhm kein zeitlich Gut<br />
         Vns wieder zu <span style="color:red">t</span>erwerben/<br />
@@ -1219,7 +1256,7 @@ count: false
 
 .cols[
 .fourty[
-<p style="margin-top:-20px">
+<p style="margin-top:-20px; margin-right:-30px">
 <img src="img/cyrillic.jpg" height="500px" />
 </p>
 ]
@@ -1251,7 +1288,7 @@ count: false
 
 ---
 
-# Anschauungsbeispiele: Gemischte Schriftartem
+# Anschauungsbeispiele: Gemischte Schriftarten
 
 ---
 
