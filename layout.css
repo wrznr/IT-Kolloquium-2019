@@ -43,7 +43,7 @@ ul > li > ol > li > ul > li { font-size:1.1rem }
 .remark-slide-number { bottom:15px; right:70px; font-size:8pt }
 
 .title-slide h1 { text-align:left; margin-top:80px; font-family: 'Open Sans', sans-serif }
-.title-slide h2 { font-size:2rem; color:#ccc; text-align:left; margin-top:30px; font-family: 'Open Sans', sans-serif }
+.title-slide h2 { font-size:2rem; color:#000; text-align:left; margin-top:30px; font-family: 'Open Sans', sans-serif }
 .title-slide .remark-slide-number { display:none }
 
 .part-slide h1 { text-align:center; margin-top:80px; font-family: 'Open Sans', sans-serif }
