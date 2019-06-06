@@ -690,6 +690,7 @@ count: false
 .fifty[
 - Training auf manuell strukturierten Seiten
 - jedes Pixel gehört in ein Segment
+- jedes Pixel gehört zu einer Klasse
 ]
 .fourty[
 <p style="margin-top:-30px">
@@ -708,6 +709,7 @@ count: false
 .fifty[
 - Training auf manuell strukturierten Seiten
 - jedes Pixel gehört in ein Segment
+- jedes Pixel gehört zu einer Klasse
 ]
 .fourty[
 <p style="margin-top:-30px">
@@ -726,6 +728,7 @@ count: false
 .fifty[
 - Training auf manuell strukturierten Seiten
 - jedes Pixel gehört in ein Segment
+- jedes Pixel gehört zu einer Klasse
     + Illustration durch Farbe pro Segmenttyp
 ]
 .fourty[
@@ -745,6 +748,7 @@ count: false
 .fifty[
 - Training auf manuell strukturierten Seiten
 - jedes Pixel gehört in ein Segment
+- jedes Pixel gehört zu einer Klasse
     + Illustration durch Farbe pro Segmenttyp
 ]
 .fourty[
@@ -764,7 +768,30 @@ count: false
 .fifty[
 - Training auf manuell strukturierten Seiten
 - jedes Pixel gehört in ein Segment
+- jedes Pixel gehört zu einer Klasse
     + Illustration durch Farbe pro Segmenttyp
+- Klassifikation der Pixel anhand ihrer Umgebung (i.e. Farbe im Original)
+]
+.fourty[
+<p style="margin-top:-30px">
+<img src="img/sem_sep.png" height="500px" />
+</p>
+]
+]
+
+---
+
+count: false
+
+# OCR-Workflow: *Layoutanalyse* per Pixelklassifizierung
+
+.cols[
+.fifty[
+- Training auf manuell strukturierten Seiten
+- jedes Pixel gehört in ein Segment
+- jedes Pixel gehört zu einer Klasse
+    + Illustration durch Farbe pro Segmenttyp
+- Klassifikation der Pixel anhand ihrer Umgebung (i.e. Farbe im Original)
     + beliebig komplexe Schemata möglich
         * Text vs. Nichttext
 ]
@@ -785,7 +812,9 @@ count: false
 .fifty[
 - Training auf manuell strukturierten Seiten
 - jedes Pixel gehört in ein Segment
+- jedes Pixel gehört zu einer Klasse
   + Illustration durch Farbe pro Segmenttyp
+- Klassifikation der Pixel anhand ihrer Umgebung (i.e. Farbe im Original)
   + beliebig komplexe Schemata möglich
       * Text vs. Nichttext
 ]
