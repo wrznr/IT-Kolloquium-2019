@@ -1007,7 +1007,7 @@ count: false
 </center>
 ]
 .fifty[
-<div style="margin-top:-60px">
+<div style="margin-top:-50px">
 <code >ABBYY FineReader 11</code>
 <p style="font-size:1.4rem">
         ES kostet Om kein zeitlich Gut<br /> 
@@ -1018,7 +1018,7 @@ count: false
         EinFluch vnd Grcwcl war.
 </p>
 
-`OCRopus` (homebrew)
+<code>OCRopus<code>
 <p style="font-size:1.4rem">
         Es koſ<span style="color:red">l</span>et jhm kein zeitlich Gut<br />
         Vns wieder zu <span style="color:red">t</span>erwerben/<br />
@@ -1054,7 +1054,8 @@ count: false
 </p>
 ]
 .fifty[
-`ABBYY FineReader 11`
+<div style="margin-top:-50px">
+<code >ABBYY FineReader 11</code>
 <p style="font-size:1.4rem">
         ES kostet Om kein zeitlich Gut<br /> 
         Dns wieder zu erwerben/<br />
@@ -1064,7 +1065,7 @@ count: false
         EinFluch vnd Grcwcl war.
 </p>
 
-`OCRopus` (homebrew)
+<code>OCRopus<code>
 <p style="font-size:1.4rem">
         Es koſ<span style="color:red">l</span>et jhm kein zeitlich Gut<br />
         Vns wieder zu <span style="color:red">t</span>erwerben/<br />
@@ -1073,6 +1074,7 @@ count: false
         Vnd einen Tod zwar/ welcher gar<br />
         Ein Fluch vnd Grewel war.
 </p>
+</div>
 ]
 ]
 
