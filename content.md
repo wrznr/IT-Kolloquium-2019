@@ -676,6 +676,9 @@ count: false
 - jedes Pixel gehört in ein Segment
 ]
 .fourty[
+<p style="margin-top:-20px">
+<img src="img/zonned.png" height="500px" />
+</p>
 ]
 ]
 
