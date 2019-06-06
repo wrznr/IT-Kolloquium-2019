@@ -1310,7 +1310,13 @@ führte, und seit dem Anfange unseres Jahrhunderts die<br/>
 sächsische Schweiz genannt wird. Seit der böhmische<br/>
 Theil bekannter geworden ist und mehr besucht wird, ‘wird<br/>
 das Ganze die sächsisch-böhmische Schweiz ge-<br/>
-nannt.
+nannt.<br/>
+<br/>
+Wer käme wohl nach Dresden, ohne nicht jene freund-<br/>
+lichen, überaus malerischen, erhabenen, wilden, wie lieb-<br/>
+lichen und idyllischen Berggebilde zu begrüssen? Gewiss<br/>
+Jeder wird sie mit Begeisterung und hohem Wohlgefallen<br/>
+durchwandern und von ihnen eine Liebliche Erinnerung mit
 </p>
 ]
 ]
