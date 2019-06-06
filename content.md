@@ -674,6 +674,37 @@ count: false
 .fifty[
 - Training auf manuell strukturierten Seiten
 - jedes Pixel gehört in ein Segment
+]
+.fourty[
+]
+]
+
+---
+
+count: false
+
+# OCR-Workflow: *Layoutanalyse* per Pixelklassifizierung
+
+.cols[
+.fifty[
+- Training auf manuell strukturierten Seiten
+- jedes Pixel gehört in ein Segment
+    + Illustration durch Farbe pro Segmenttyp
+]
+.fourty[
+]
+]
+
+---
+
+count: false
+
+# OCR-Workflow: *Layoutanalyse* per Pixelklassifizierung
+
+.cols[
+.fifty[
+- Training auf manuell strukturierten Seiten
+- jedes Pixel gehört in ein Segment
     + Illustration durch Farbe pro Segmenttyp
 ]
 .fourty[
@@ -1187,14 +1218,14 @@ count: false
 .sixty[
 > Б. Л. Фонкин
 
-Греческие рукописи собрания Х. Ф. Маттеи
-в Российском государственном архле древних актов
+> Греческие рукописи собрания Х. Ф. Маттеи
+> в Российском государственном архле древних актов
 
-Сравнительно недавно в РГАДА был образован фонд
-X. ©. Marteu, куда вошли принадлежавшие этому ученому
-треческие рукописи IX- XVII Bn., a Take некоторые другие
-материалы!. Чтобы понять, как спожилось это собрание, необ-
-ходимо обратиться к истории.
+> Сравнительно недавно в РГАДА был образован фонд
+> Х. Ф. Маттен, куда вошли принадлежавшие этому ученому
+> треческие рукописи 1Х--ХУЛ вв., а также некоторые другие
+> материалы!. Чтобы понять, как спожилось это собрание, необ-
+> ходимо обратиться к истории.
 ]
 ]
 
