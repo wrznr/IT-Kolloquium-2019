@@ -1334,6 +1334,14 @@ count: false
 
 ---
 
+count: false
+
+# Anschauungsbeispiele: Strukturqualität
+
+<center><img src="img/boerse_result.png" /></center>
+
+---
+
 # OCR-D: Überblick
 
 - **DFG-Initiative** zur Verbesserung von OCR-Methoden für historische Drucke insbesondere
