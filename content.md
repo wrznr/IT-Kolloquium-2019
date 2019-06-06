@@ -1216,8 +1216,8 @@ count: false
 <img src="img/cyrillic.jpg" height="500px" />
 </p>
 ]
-.eighty[
-<p style="font-size:1.2rem; margin-left:10px; margin-right:-20px">
+.seventy[
+<p style="font-size:1.2rem; margin-right:-30px">
 Б. Л. Фонкин<br/ >
 <br/ >
 Греческие рукописи собрания Х. Ф. Маттеи<br/ >
