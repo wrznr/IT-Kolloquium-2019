@@ -18,7 +18,7 @@ pre { margin:0; padding:.5em; background:#f6f8fa }
 
 table { margin:auto; width:100% }
 thead { background:#eee }
-tbody tr:nth-child(even) { background:#f3f3f3 }
+/*tbody tr:nth-child(even) { background:#f3f3f3 }*/
 
 ul > li > ul > li { font-size:1.4rem }
 ul > li > ol > li { font-size:1.4rem }
@@ -124,7 +124,7 @@ ul > li > ol > li > ul > li { font-size:1.1rem }
   font-family: 'Open Sans', sans-serif
 }
 
-.title-slide .my-title-footer tbody { background: unset; }
+/*.title-slide .my-title-footer tbody { background: transparent }*/
 
 .cols{
   display: flex;

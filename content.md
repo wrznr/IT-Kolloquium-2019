@@ -53,7 +53,7 @@ count: false
   + Komponenten einfacher OCR-Workflows
   + Modelltraining
   + Optimierungsoptionen
-  + Komplexere OCR-Workflows
+- Anschauungsbeispiele
 - Nichttechnische Aspekte
   + OCR-D
   + Open-Source, und dann?
@@ -1148,14 +1148,7 @@ count: false
 
 ---
 
-class: part-slide
-count: false
-
-# Komplexere OCR-Workflows
-
----
-
-# Komplexere OCR-Workflows
+# Optimierungsoptionen: Komplexere OCR-Workflows
 
 - „einfache“ OCR-Workflows in allen OCR-Lösungen implementiert
 - **keine Möglichkeit** zur direkten Integration der diskutierten Optimierungsmöglichkeiten
@@ -1164,11 +1157,11 @@ count: false
     + Zugriff auf **einzelne Module**
     + Kombination in **spezifischem Workflow**
     + aka. Skripte und Hacks
-- **OCR-D**
+- aber **OCR-D**
 
 ---
 
-# Komplexere OCR-Workflows
+# Optimierungsoptionen: Komplexere OCR-Workflows
 
 <center>
 <img src="img/workflow.svg"/>
