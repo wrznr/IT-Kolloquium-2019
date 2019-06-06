@@ -1272,15 +1272,15 @@ count: false
 
 .cols[
 .fourty[
-<p style="margin-top:-20px; margin-right:-30px">
+<p style="margin-top:-20px; margin-right:-25px">
 <img src="img/gottschalck.jpg" height="500px" />
 </p>
 ]
 .seventy[
-<p style="font-size:1.2rem; margin-right:-30px">
+<p style="font-size:1.2rem; margin-right:-25px">
 Einleitung.<br/>
 <br/>
-im Siidosten von Sachsen und im Xordosten Böhmens,i anf beiden Seiten der Elbe, dehnt sich ein von der Xaturwunderlieblich gebildeter, mit Felsen. Thälern, Schluchteni ' und Wasser reichlich und reizend geschmückter Landstrich; ‘ aus, der früher den Xamen des Meissner Hochlands1 führte, und seit dem Anfänge unseres Jahrhunderts die. sächsische Schweiz genannt wird. Seit der böhmischer . Theil bekannter geworden ist und mehr besucht wird, 'wirdt> • das Ganze die sächsisch- höhmische Schweiz ge-:i nannt.A\ er käme wohl nach Dresden, ohne nicht jene freund-;{ liehen, überaus malerischen, erhabenen, wilden, wie lieb-il liehen und idyllischen Berggebilde zu begrüssen? GewissI. ’ Jeder wird sie mit Begeisterung und hohem Wohlgefallenb durchwandern und von ihnen eine liebliche Erinnerung mitx zurücknehmen! Xur muss sich Xiemand durch den hoch-A klingenden Xamen „Schweiz“ verleiten lassen und sich ihnenii mit Ansprüchen nahen, welche sie nicht erfüllen können.’f : A\ er hier die Schweiz mit ihren Hochalpen, ihren ewigv weissen Schneeriesen. Wasserstürzen. Eismeeren und wunder-;d i baren Gletschern. Lawinen, spitzen Felsenhörneni. mit ihrenn 1 reizenden Seen und ihrem Hirtenleben zu finden glaubt,)b der wird sich getäuscht sehen. Von alle Dem erblickt erid liier nichts, er findet aber ein liebliches Thal- und Hiigel-e! . land. von Felsenriesen ummauert, von engen Schluchtenjli • durchzogen, eine Bergtrümmerwelt, mit tausend Bildernib der nie veraltenden Xatur. mit ihrer eigenthümlielien Ge-1
+im Siidosten von Sachsen und im Xordosten Böhmens,i anf beiden Seiten der Elbe, dehnt sich ein von der Xaturwunderlieblich gebildeter, mit Felsen. Thälern, Schluchteni ' und Wasser reichlich und reizend geschmückter Landstrich; ‘ aus, der früher den Xamen des Meissner Hochlands1 führte, und seit dem Anfänge unseres Jahrhunderts die. sächsische Schweiz genannt wird. Seit der böhmischer . Theil bekannter geworden ist und mehr besucht wird, 'wirdt> • das Ganze die sächsisch- höhmische Schweiz ge-:i nannt.A\ er käme wohl nach Dresden, ohne nicht jene freund-;{ liehen, überaus malerischen, erhabenen, wilden, wie lieb-il liehen und idyllischen Berggebilde zu begrüssen? GewissI. ’ Jeder wird sie mit Begeisterung und hohem Wohlgefallenb durchwandern und von ihnen eine liebliche Erinnerung mitx zurücknehmen! Xur muss sich Xiemand durch den hoch-A klingenden Xamen „Schweiz“ verleiten lassen und sich ihnenii mit Ansprüchen nahen, welche sie nicht erfüllen können.’f : A\ ...
 </p>
 ]
 ]
