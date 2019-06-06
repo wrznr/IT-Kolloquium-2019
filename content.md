@@ -1004,8 +1004,8 @@ count: false
 </center>
 ]
 .fifty[
-`ABBYY FineReader 11`
-<p style="font-size:1.4rem; margin-top:-40px">
+<code style="margin-top:-60px">ABBYY FineReader 11</code>
+<p style="font-size:1.4rem">
         ES kostet Om kein zeitlich Gut<br /> 
         Dns wieder zu erwerben/<br />
         ES that es nicht der OpfferBluk/<br />
