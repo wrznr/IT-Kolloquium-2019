@@ -1004,7 +1004,8 @@ count: false
 </center>
 ]
 .fifty[
-<code style="margin-top:-60px">ABBYY FineReader 11</code>
+<div style="margin-top:-60px">
+<code >ABBYY FineReader 11</code>
 <p style="font-size:1.4rem">
         ES kostet Om kein zeitlich Gut<br /> 
         Dns wieder zu erwerben/<br />
@@ -1023,6 +1024,7 @@ count: false
         Vnd einen Tod zwar/ welcher gar<br />
         Ein Fluch vnd Grewel war.
 </p>
+</div>
 ]
 ]
 
