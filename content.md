@@ -39,7 +39,7 @@ class: title-slide
 count: false
 
 # (Open-Source-)OCR-Workflows
-## Eine Aufriss über Techniken und Werkzeuge zur automatischen Texterkennung
+## Ein Aufriss über Techniken und Werkzeuge zur automatischen Texterkennung
 
 ---
 
