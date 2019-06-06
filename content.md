@@ -1169,6 +1169,37 @@ count: false
 
 ---
 
+class: part-slide
+count: false
+
+# Anschauungsbeispiele
+
+---
+
+# Anschauungsbeispiele: Vorlagequalität
+
+.cols[
+.fourty[
+<p style="margin-top:-20px">
+<img src="img/cyrillic.jpg" height="500px" />
+</p>
+]
+.sixty[
+> Б. Л. Фонкин
+
+Греческие рукописи собрания Х. Ф. Маттеи
+в Российском государственном архле древних актов
+
+Сравнительно недавно в РГАДА был образован фонд
+X. ©. Marteu, куда вошли принадлежавшие этому ученому
+треческие рукописи IX- XVII Bn., a Take некоторые другие
+материалы!. Чтобы понять, как спожилось это собрание, необ-
+ходимо обратиться к истории.
+]
+]
+
+---
+
 # OCR-D: Überblick
 
 - **DFG-Initiative** zur Verbesserung von OCR-Methoden für historische Drucke insbesondere
