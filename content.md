@@ -905,6 +905,8 @@ count: false
 - [`okralact`](https://github.com/Doreenruirui/okralact)
     + Metatrainingsinfrastruktur für `Tesseract` und 🐙
     + entwickelt im OCR-D-Kontext
+    + einheitlicher **Parametersatz**, einheitliche **Formatvorgaben**
+    + Ziel: multiple Modelle für ein Training
 
 ---
 
