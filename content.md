@@ -1215,7 +1215,7 @@ count: false
 <img src="img/cyrillic.jpg" height="500px" />
 </p>
 ]
-.sixty[
+.seventy[
 > Б. Л. Фонкин
 
 > Греческие рукописи собрания Х. Ф. Маттеи
