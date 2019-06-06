@@ -99,7 +99,7 @@ ul > li > ol > li > ul > li { font-size:1.1rem }
   display: none
 }
 
-:not(.title-slide) .my-title-footer {
+:not(.title-slide) > .my-title-footer {
   display: none
 }
 
